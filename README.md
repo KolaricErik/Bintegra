@@ -20,3 +20,5 @@ Aktivacija dodatnih storitev
 
 Spremembe obstoječih storitev 
 
+Api-ji: app.swaggerhub.com/organizations/liferayinc
+
