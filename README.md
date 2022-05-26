@@ -20,5 +20,8 @@ Aktivacija dodatnih storitev
 
 Spremembe obstoječih storitev 
 
-Api-ji: app.swaggerhub.com/organizations/liferayinc
+Api-ji: app.swaggerhub.com/organizations/liferayinc in localhost:8080/o/api
 
+Aktualen liferay portal: https://github.com/liferay/liferay-portal/releases?page=3
+                   file: liferay-ce-portal-tomcat-7.3.7-ga8-20210610183559721.7z
+ 
