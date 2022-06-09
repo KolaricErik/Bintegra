@@ -1,4 +1,28 @@
-https://media-exp1.licdn.com/dms/image/C4E0BAQFfcnhNZjuFPA/company-logo_200_200/0/1637844410656?e=2147483647&v=beta&t=xnkLXaUGoC6dlo3W9ocPDAmgB1Q-ubZO4DlsLl9fUgg
+![Bintegra](https://media-exp1.licdn.com/dms/image/C4E0BAQFfcnhNZjuFPA/company-logo_200_200/0/1637844410656?e=2147483647&v=beta&t=xnkLXaUGoC6dlo3W9ocPDAmgB1Q-ubZO4DlsLl9fUgg)
+
+<h1>Bintegra - reševanje problema B2B</h1>
+
+<h3>Predpogoji</h3>
+
+
+IntelliJ IDEA, Liferay plugin, Liferay server
+
+
+
+<h3>Namestitev in zagon rešitve</h3>
+
+ - podrobnosti so napisane v <a href="how_to.pdf">how_to.pdf</a>
+
+
+<h3>Uporabljene tehnologije</h3>
+
+- <a href="https://www.liferay.com/" target="_blank">Liferay</a> - Liferay 7.3.0 - Liferay 7.3.7
+- <a href="https://www.java.com/en/Java" target="_blank">Java</a> - Java SDK 1.8 - Java SDK 11
+- <a href="https://vuejs.org/" target="_blank">Vue.js</a> - Vue.js
+- <a href="https://gradle.org/releases/" target="_blank">Gradle</a> - Gradle v7.4.2
+
+
+<h3>Potek dela</h3>
 
 1. Pisanje dokumentacije za objekte in povezave med objekti.
 2. Dokumentacjia arhitekture.
@@ -7,23 +31,26 @@ https://media-exp1.licdn.com/dms/image/C4E0BAQFfcnhNZjuFPA/company-logo_200_200/
 5. Klicanje REST API skozi VUE.js ki vpliva na LifeRay.
 6. Uporaba LifeRay headless API.
 
+<h3>Zahteve</h3>
 
-
-DOKUMENTACIJA:
 Podjetje: 
 
-Pregled uporabnikov in naprav 
+- Pregled uporabnikov in naprav 
 
-Pregled naročniških razmerij 
+- Pregled naročniških razmerij 
 
-Finančni pregled 
+- Finančni pregled 
 
-Aktivacija dodatnih storitev 
+- Aktivacija dodatnih storitev 
 
-Spremembe obstoječih storitev 
+- Spremembe obstoječih storitev 
 
+<h3>Dodatki</h3>
+
+Dostop do swagger API :
 Api-ji: app.swaggerhub.com/organizations/liferayinc in localhost:8080/o/api
 
+Dostop do Liferay portala:
 Aktualen liferay portal: https://github.com/liferay/liferay-portal/releases?page=3
                    file: liferay-ce-portal-tomcat-7.3.7-ga8-20210610183559721.7z
  
