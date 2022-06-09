@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+#password-verification-dialog .modal-dialog {
+  align-items: center;
+  display: flex;
+  min-height: calc(100% - 1rem); }
+
+.portlet-users-admin #header-bottom {
+  background-color: #f6f8fb;
+  height: 34px;
+  margin: 0 0 10px; }
+
+.portlet-users-admin #header-menu {
+  background-color: #f3f5f5;
+  font-size: 11px;
+  line-height: 34px;
+  margin: 0 0 10px;
+  padding: 0 10px;
+  text-align: right; }
+
+.portlet-users-admin #header-title {
+  background-color: #c1cabc;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 10px;
+  padding: 7px 10px; }
+
+.portlet-users-admin .email-user-add .password-changed-notification {
+  display: none; }
+
+.portlet-users-admin .hide-data-labels .toggle-switch-handle:after {
+  content: normal !important; }
+
+.portlet-users-admin .label-holder {
+  font-weight: bold;
+  padding: 15px 0 5px; }
+
+.portlet-users-admin .org-labor-entry {
+  float: left;
+  margin-right: 2%;
+  width: 12%; }
+  @media (max-width: 767.98px) {
+    .portlet-users-admin .org-labor-entry {
+      float: none;
+      width: auto; } }
+  .portlet-users-admin .org-labor-entry > .form-group {
+    margin-bottom: 0; }
+
+.portlet-users-admin .organization-details {
+  margin-left: 21px; }
+
+.portlet-users-admin .organization-information {
+  overflow: hidden; }
+
+.portlet-users-admin .organization-search {
+  float: right;
+  margin: 0 0 0.5em 0.5em; }
+
+.portlet-users-admin .section {
+  float: left;
+  margin-left: 10px;
+  width: 47%; }
+  .portlet-users-admin .section h3 {
+    background: no-repeat scroll 2px 50%;
+    border-bottom: 1px solid #ccc;
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+    padding-left: 25px; }
+  .portlet-users-admin .section li {
+    list-style: none;
+    margin: 0; }
+  .portlet-users-admin .section ul {
+    margin: 0; }
+
+.portlet-users-admin .entity-details {
+  clear: both; }
+
+.portlet-users-admin .radio-holder {
+  line-height: 12px; }
+
+.portlet-users-admin .form-navigator .user-info .user-logo,
+.portlet-users-admin .form-navigator .user-info .organization-logo,
+.portlet-users-admin .form-navigator .organization-info .user-logo,
+.portlet-users-admin .form-navigator .organization-info .organization-logo {
+  margin-right: 5px;
+  width: 35px; }
+
+.portlet-users-admin .form-navigator .user-info .user-name,
+.portlet-users-admin .form-navigator .organization-info .user-name {
+  word-wrap: break-word; }
+
+.portlet-users-admin .membership-restriction-container {
+  margin-top: 1em; }
+
+.portlet-users-admin .instant-messenger,
+.portlet-users-admin .social-network {
+  clear: both;
+  margin-bottom: 2em; }
+  .portlet-users-admin .instant-messenger img,
+  .portlet-users-admin .social-network img {
+    margin-left: 1em; }
+  .portlet-users-admin .instant-messenger .form-group,
+  .portlet-users-admin .social-network .form-group {
+    margin: 0; }
+
+.portlet-users-admin .permission-scopes {
+  margin-right: 10px; }
+  .portlet-users-admin .permission-scopes.empty {
+    display: none; }
+
+.portlet-users-admin .permission-group {
+  margin: 10px 0 0 10px; }
+
+.portlet-users-admin .organization-icon,
+.portlet-users-admin .plugin-thumbnail,
+.portlet-users-admin .site-icon {
+  float: left;
+  margin-right: 5px; }
+
+.portlet-users-admin .plugin-thumbnail {
+  margin-right: 10px; }
+
+.portlet-users-admin .lfr-permission-navigation-container .search {
+  margin: 20px 0; }
+
+.portlet-users-admin .lfr-permission-navigation-container .lfr-permission-navigation {
+  overflow: auto;
+  width: 100%; }
+  .portlet-users-admin .lfr-permission-navigation-container .lfr-permission-navigation .permission-navigation-item-header {
+    font-weight: bold; }
+    .portlet-users-admin .lfr-permission-navigation-container .lfr-permission-navigation .permission-navigation-item-header .permission-navigation-item-header-icon {
+      display: inline-block;
+      height: 10px;
+      width: 9px; }
+  .portlet-users-admin .lfr-permission-navigation-container .lfr-permission-navigation .selected {
+    font-weight: bold; }
+  .portlet-users-admin .lfr-permission-navigation-container .lfr-permission-navigation .toggler-header-collapsed .icon-caret-down {
+    display: none; }
+  .portlet-users-admin .lfr-permission-navigation-container .lfr-permission-navigation .toggler-header-expanded .icon-caret-right {
+    display: none; }
+  .portlet-users-admin .lfr-permission-navigation-container .lfr-permission-navigation .permission-navigation-item-header {
+    cursor: pointer;
+    margin: 0.5em; }
+  .portlet-users-admin .lfr-permission-navigation-container .lfr-permission-navigation .permission-navigation-item-content
+.permission-navigation-item-container {
+    cursor: pointer;
+    line-height: 1.8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .portlet-users-admin .lfr-permission-navigation-container .lfr-permission-navigation .permission-navigation-item-summary {
+    margin: 0.5em 0 1.5em 0.5em; }
+  .portlet-users-admin .lfr-permission-navigation-container .lfr-permission-navigation .permission-navigation-section .permission-navigation-section {
+    margin-left: 1em; }
+
+.portlet-users-admin .user-status-selector {
+  margin-top: 5px; }
+  @media (min-width: 768px) {
+    .portlet-users-admin .user-status-selector {
+      float: right;
+      margin-top: 0; } }
+  .portlet-users-admin .user-status-selector .form-group {
+    margin-bottom: 0; }
+  .portlet-users-admin .user-status-selector .input-select-wrapper {
+    width: 100%; }
+    @media (min-width: 768px) {
+      .portlet-users-admin .user-status-selector .input-select-wrapper {
+        width: auto; } }
+
+@media (min-width: 768px) {
+  .portlet-users-admin .user-table button {
+    float: left; } }
+
+.portlet-users-admin .view-all-link {
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 15px; }
+
+.portlet-users-admin .lfr-asset-column-details {
+  margin-top: 1em; }
+
+.portlet-users-admin .lfr-asset-summary img.avatar {
+  max-width: 210px; }
+
+.portlet-users-admin .opening-hours-entry {
+  margin-bottom: 50px; }
+  .portlet-users-admin .opening-hours-entry .opening-hours-header {
+    align-items: flex-end;
+    margin-bottom: 10px; }
+    .portlet-users-admin .opening-hours-entry .opening-hours-header span:first-child {
+      margin-right: 15px; }
+  .portlet-users-admin .opening-hours-entry td {
+    border-width: 0;
+    padding: 0.3rem 0; }
+    .portlet-users-admin .opening-hours-entry td:first-child {
+      padding-left: 0; }
+  @media (min-width: 992px) {
+    .portlet-users-admin .opening-hours-entry table {
+      table-layout: fixed; }
+    .portlet-users-admin .opening-hours-entry td:first-child {
+      width: 17%; } }
+
+.lfr-floating-container .field input,
+.lfr-floating-container .field img {
+  vertical-align: top; }
+
+.contact-information-empty-results-message-wrapper div:first-child {
+  border-style: none; }
+
+.addresses-table-wrapper table td:first-child {
+  padding-right: 0;
+  vertical-align: top; }
+
+.contact-information-edit-form {
+  background-color: #fff; }

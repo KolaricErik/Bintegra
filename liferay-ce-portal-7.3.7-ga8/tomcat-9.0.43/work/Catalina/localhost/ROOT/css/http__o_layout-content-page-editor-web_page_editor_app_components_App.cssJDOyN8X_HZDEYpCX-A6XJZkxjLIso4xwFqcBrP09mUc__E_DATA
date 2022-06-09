@@ -1,0 +1,3011 @@
+@charset "UTF-8";
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__allowed-fragment__modal .modal-body {
+  padding: 0; }
+
+.page-editor__allowed-fragment__modal .page-editor__allowed-fragment__new-fragments-checkbox {
+  background: #f7f8f9;
+  padding: 12px 24px; }
+  .page-editor__allowed-fragment__modal .page-editor__allowed-fragment__new-fragments-checkbox .custom-control {
+    margin-bottom: 0; }
+  .page-editor__allowed-fragment__modal .page-editor__allowed-fragment__new-fragments-checkbox span {
+    font-weight: normal; }
+
+.page-editor__allowed-fragment__modal .page-editor__allowed-fragment__tree {
+  height: 40vh;
+  overflow-y: auto; }
+  .page-editor__allowed-fragment__modal .page-editor__allowed-fragment__tree .lfr-treeview-node-list-item {
+    margin-bottom: 0; }
+    .page-editor__allowed-fragment__modal .page-editor__allowed-fragment__tree .lfr-treeview-node-list-item:not(.with-children) span {
+      font-weight: normal; }
+  .page-editor__allowed-fragment__modal .page-editor__allowed-fragment__tree .lfr-treeview-node-list-item__children {
+    padding-left: 32px; }
+  .page-editor__allowed-fragment__modal .page-editor__allowed-fragment__tree .lfr-treeview-node-list-item__button-icon {
+    background-color: #f1f2f5;
+    color: #6b6c7e; }
+  .page-editor__allowed-fragment__modal .page-editor__allowed-fragment__tree > .lfr-treeview-node-list {
+    margin-left: 8px;
+    border-left: 1px solid #cdced9; }
+    .page-editor__allowed-fragment__modal .page-editor__allowed-fragment__tree > .lfr-treeview-node-list .lfr-treeview-node-list {
+      border-left-color: #cdced9;
+      border-left-style: solid; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__disabled-area {
+  cursor: not-allowed;
+  padding-right: 40px;
+  position: relative;
+  transition: padding-left ease 0.5s, padding-right ease 0.5s;
+  will-change: padding-left, padding-right; }
+  .page-editor__disabled-area::after {
+    background-color: rgba(255, 255, 255, 0);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: background-color ease 0.3s;
+    width: 100%; }
+  .page-editor__disabled-area:hover:after {
+    background-color: rgba(255, 255, 255, 0.4); }
+  @media (min-width: 576px) {
+    .page-editor__disabled-area.collapsed {
+      padding-right: 322px; } }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__drag-preview {
+  cursor: grabbing;
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 991; }
+  .page-editor__drag-preview__content {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(39, 40, 51, 0.16);
+    color: #30313f;
+    cursor: grabbing;
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    font-weight: 600;
+    height: 32px;
+    padding: 8px;
+    position: absolute;
+    text-align: left;
+    text-overflow: ellipsis;
+    width: 246px;
+    word-wrap: break-word; }
+    .page-editor__drag-preview__content .lexicon-icon {
+      font-size: 14px;
+      margin-right: 16px; }
+    .page-editor__drag-preview__content__treeview {
+      align-items: center;
+      border: 1px solid #80acff;
+      display: flex;
+      padding: 8px 10px;
+      width: auto; }
+      .page-editor__drag-preview__content__treeview .lexicon-icon {
+        margin-right: 8px;
+        margin-top: 0; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__drop-zone {
+  align-items: center;
+  background: #f7f8f9;
+  border: 1px solid #cdced9;
+  color: #6b6c7e;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  justify-content: center;
+  min-height: 400px; }
+  .page-editor__drop-zone p {
+    font-size: 14px;
+    max-width: 300px;
+    text-align: center; }
+    .page-editor__drop-zone p:first-child {
+      font-weight: bold;
+      margin-bottom: 0.5em; }
+
+.page-editor__edit-mode-selector {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px; }
+
+.page-editor__global-context-iframe {
+  border: none;
+  height: 100%;
+  width: 100%; }
+  .page-editor__global-context-iframe--loading {
+    opacity: 0.5; }
+  .page-editor__global-context-iframe--hidden {
+    left: -99999px;
+    opacity: 0;
+    position: absolute;
+    top: -99999px; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__collection__block {
+  box-shadow: inset 0 0 0 1px rgba(175, 120, 255, 0.3); }
+
+.page-editor__collection__no-items-message {
+  background-color: rgba(175, 120, 255, 0.1);
+  color: #af78ff;
+  font-size: 14px;
+  margin-top: 0;
+  padding: 7em 0;
+  text-align: center; }
+
+.page-editor__collection__not-collection-selected-message {
+  background-color: #f7f8f9;
+  box-shadow: inset 0 0 0 1px #b3cdff;
+  color: #a7a9bc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 0;
+  padding: 7em 0;
+  text-align: center; }
+
+.page-editor__collection-item {
+  border: 1px solid rgba(175, 120, 255, 0.1);
+  min-height: 80px; }
+  .page-editor__collection-item__title {
+    color: #af78ff;
+    font-size: 0.75rem;
+    font-style: italic;
+    padding-left: 8px;
+    padding-top: 8px; }
+
+.page-editor__col .page-editor__col__resizer {
+  background-color: #0b5fff;
+  border-radius: 50%;
+  border-width: 0;
+  cursor: col-resize;
+  height: 16px;
+  left: 0;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  z-index: 1; }
+  html.rtl .page-editor__col .page-editor__col__resizer {
+    transform: translate(50%, -50%); }
+  .page-editor__col .page-editor__col__resizer-first {
+    left: 13px; }
+
+.page-editor__collection-item__border {
+  height: 100%;
+  position: absolute;
+  width: 100%; }
+
+.page-editor__col__border {
+  border: 1px solid #b3cdff;
+  height: 100%; }
+
+.page-editor__container, .page-editor__container:before, .page-editor__row:before {
+  box-shadow: inset 0 0 0 1px #b3cdff; }
+
+.page-editor__col, .page-editor__row, .page-editor__collection-item {
+  position: relative; }
+  .page-editor__col:before, .page-editor__row:before, .page-editor__collection-item:before {
+    content: '';
+    display: block;
+    height: 100%;
+    left: 12px;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: calc(100% - 24px); }
+
+.page-editor__row.align-bottom .page-editor__col .page-editor__col__border, .page-editor__row.align-middle .page-editor__col .page-editor__col__border {
+  display: flex;
+  flex-direction: column; }
+
+.page-editor__row.align-middle .page-editor__col .page-editor__col__border {
+  justify-content: center; }
+
+.page-editor__row.align-bottom .page-editor__col .page-editor__col__border {
+  justify-content: flex-end; }
+
+.page-editor__collection-item:before {
+  left: 0;
+  width: 100%; }
+
+.page-editor__container.empty.empty, .page-editor__row.empty {
+  min-height: 180px; }
+  .page-editor__container.empty.empty.flex-column-reverse .page-editor__col, .page-editor__row.empty.flex-column-reverse .page-editor__col {
+    flex: 1; }
+    .page-editor__container.empty.empty.flex-column-reverse .page-editor__col__border, .page-editor__row.empty.flex-column-reverse .page-editor__col__border {
+      min-height: 90px; }
+  .page-editor__container.empty.empty .page-editor__col, .page-editor__row.empty .page-editor__col {
+    min-height: 90px; }
+
+.page-editor__editable {
+  min-height: 1rem;
+  min-width: 3ch;
+  transition: box-shadow ease 0.3s; }
+  .page-editor__editable--hovered {
+    box-shadow: inset 0 0 0 1px #80acff; }
+  .page-editor__editable--mapped {
+    box-shadow: inset 0 0 0 1px rgba(175, 120, 255, 0.3); }
+    .page-editor__editable--mapped.page-editor__editable--hovered {
+      box-shadow: inset 0 0 0 1px rgba(175, 120, 255, 0.7); }
+    .page-editor__editable--mapped.page-editor__editable--active {
+      box-shadow: inset 0 0 0 1px #af78ff; }
+  .page-editor__editable--translated {
+    box-shadow: inset 0 0 0 1px rgba(90, 202, 117, 0.3); }
+    .page-editor__editable--translated.page-editor__editable--hovered {
+      box-shadow: inset 0 0 0 1px rgba(90, 202, 117, 0.7); }
+    .page-editor__editable--translated.page-editor__editable--active {
+      box-shadow: inset 0 0 0 1px #5aca75; }
+  .page-editor__editable--active {
+    box-shadow: inset 0 0 0 1px #0b5fff; }
+  img.page-editor__editable {
+    box-sizing: border-box;
+    outline-offset: -1px; }
+    img.page-editor__editable--hovered {
+      outline: solid 1px #80acff; }
+    img.page-editor__editable--mapped {
+      outline: solid 1px rgba(175, 120, 255, 0.3); }
+      img.page-editor__editable--mapped.page-editor__editable--hovered {
+        outline: solid 1px rgba(175, 120, 255, 0.7); }
+      img.page-editor__editable--mapped.page-editor__editable--active {
+        outline: solid 1px #af78ff; }
+    img.page-editor__editable--translated {
+      outline: solid 1px rgba(90, 202, 117, 0.3); }
+      img.page-editor__editable--translated.page-editor__editable--hovered {
+        outline: solid 1px rgba(90, 202, 117, 0.7); }
+      img.page-editor__editable--translated.page-editor__editable--active {
+        outline: solid 1px #5aca75; }
+    img.page-editor__editable--active {
+      outline: solid 1px #0b5fff; }
+
+.page-editor__row.no-gutters > .page-editor__col:before {
+  left: 0;
+  width: 100%; }
+
+.page-editor__row.no-gutters:before {
+  left: 0;
+  width: 100%; }
+
+.page-editor__row.no-gutters .page-editor__col__resizer-first {
+  left: 1px; }
+
+.page-editor__no-fragments-message {
+  background: #f0f5ff;
+  border: 2px dashed #b3cdff;
+  padding: 15vh 0; }
+  .page-editor__no-fragments-message__title {
+    color: #a7a9bc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0;
+    text-align: center; }
+
+.page-editor__conversion-messages {
+  padding-right: 42px;
+  transition: padding-right ease 0.5s;
+  will-change: padding-right; }
+  @media (min-width: 576px) {
+    .page-editor__conversion-messages--with-sidebar-open {
+      padding-right: 322px; } }
+
+.page-editor lfr-editable {
+  cursor: pointer;
+  display: block; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__layout-viewport {
+  align-items: stretch;
+  background-color: #cdced9;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transition: padding-left ease 0.5s, padding-right ease 0.5s;
+  will-change: padding-left, padding-right; }
+  .page-editor__layout-viewport__resizer {
+    background-color: white; }
+  .page-editor__layout-viewport--size-desktop {
+    padding-right: 42px; }
+  .page-editor__layout-viewport--size-tablet, .page-editor__layout-viewport--size-landscapeMobile, .page-editor__layout-viewport--size-portraitMobile {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1; }
+  .page-editor__layout-viewport--size-desktop .page-editor__layout-viewport__resizer {
+    flex-grow: 1; }
+  .page-editor__layout-viewport--size-tablet .page-editor__layout-viewport__resizer {
+    max-width: 991px;
+    min-width: 768px;
+    width: 768px; }
+  .page-editor__layout-viewport--size-landscapeMobile .page-editor__layout-viewport__resizer {
+    max-width: 767px;
+    min-width: 576px;
+    width: 576px; }
+  .page-editor__layout-viewport--size-portraitMobile .page-editor__layout-viewport__resizer {
+    max-width: 575px;
+    min-width: 240px;
+    width: 360px; }
+  .page-editor__layout-viewport__label-width {
+    margin-top: 12px;
+    position: absolute;
+    right: 42px;
+    z-index: 1; }
+    .page-editor__layout-viewport__label-width span {
+      background-color: #393a4a;
+      border-radius: 4px;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      margin-right: 16px;
+      padding: 6px 12px; }
+  .page-editor__layout-viewport--with-sidebar {
+    padding-right: 42px; }
+  .page-editor__layout-viewport--with-sidebar-open .page-editor__layout-viewport__label-width {
+    right: 322px; }
+  @media (min-width: 576px) {
+    .page-editor__layout-viewport--with-sidebar-open {
+      padding-right: 322px; } }
+  .page-editor__layout-viewport__handle {
+    background-color: #cdced9;
+    cursor: col-resize;
+    position: relative;
+    width: 16px; }
+    .page-editor__layout-viewport__handle:active, .page-editor__layout-viewport__handle:hover {
+      background-color: #a7a9bc; }
+    .page-editor__layout-viewport__handle:before, .page-editor__layout-viewport__handle:after {
+      border: 1px solid #6b6c7e;
+      border-radius: 2px;
+      content: '';
+      height: 20px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+    .page-editor__layout-viewport__handle:before {
+      left: calc(50% - 3px); }
+    .page-editor__layout-viewport__handle:after {
+      left: calc(50% + 1px); }
+  .page-editor__layout-viewport__resizing {
+    cursor: col-resize; }
+    .page-editor__layout-viewport__resizing .page-editor__layout-viewport__resizer {
+      pointer-events: none; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__status-bar {
+  font-size: 0.75rem;
+  font-weight: 600; }
+  .page-editor__status-bar + .lexicon-icon {
+    font-size: 0.75rem; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__preview-modal__part {
+  display: flex;
+  flex-basis: calc(100% / 3);
+  justify-content: center; }
+  .page-editor__preview-modal__part:first-child {
+    justify-content: flex-start; }
+  .page-editor__preview-modal__part:last-child {
+    justify-content: flex-end; }
+  .page-editor__preview-modal__part label {
+    font-size: 14px; }
+  .page-editor__preview-modal__part select {
+    min-width: 200px;
+    padding: 0.25rem 2em 0.25em 0.75rem; }
+
+.page-editor__preview-modal .modal-body {
+  background-color: #cdced9;
+  display: flex;
+  justify-content: center; }
+  .page-editor__preview-modal .modal-body > iframe {
+    background-color: white;
+    margin: 0 auto; }
+
+.page-editor__save-fragment-composition-modal .modal-body {
+  max-height: 70vh; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__sidebar {
+  display: flex;
+  height: calc(100vh - 64px);
+  position: fixed;
+  right: 0;
+  top: 64px;
+  z-index: 988; }
+  .page-editor__sidebar__buttons {
+    background-color: #393a4a;
+    flex-direction: column;
+    padding-top: 16px;
+    width: 42px;
+    z-index: 1; }
+    .page-editor__sidebar__buttons.light {
+      background-color: #f1f2f5;
+      font-size: 14px;
+      padding: 16px 5px;
+      width: 42px; }
+      .page-editor__sidebar__buttons.light button {
+        color: #6b6c7e;
+        margin-bottom: 4px; }
+        .page-editor__sidebar__buttons.light button.active, .page-editor__sidebar__buttons.light button:active, .page-editor__sidebar__buttons.light button:focus, .page-editor__sidebar__buttons.light button:hover {
+          background-color: #e2e4ea;
+          color: #30313f; }
+      .page-editor__sidebar__buttons.light a {
+        color: #6b6c7e;
+        height: 32px; }
+        .page-editor__sidebar__buttons.light a.active, .page-editor__sidebar__buttons.light a:active, .page-editor__sidebar__buttons.light a:focus, .page-editor__sidebar__buttons.light a:hover {
+          background-color: #e2e4ea;
+          color: #30313f; }
+    .page-editor__sidebar__buttons a {
+      align-items: center;
+      border-radius: 0.25rem;
+      color: #a7a9bc;
+      display: flex;
+      height: 2.5em;
+      justify-content: center; }
+      .page-editor__sidebar__buttons a.active, .page-editor__sidebar__buttons a:active, .page-editor__sidebar__buttons a:focus, .page-editor__sidebar__buttons a:hover {
+        color: #fff; }
+      .page-editor__sidebar__buttons a:focus {
+        box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.25rem #80acff, inset 0 0 rgba(0, 0, 0, 0);
+        outline: none; }
+    .page-editor__sidebar__buttons button {
+      color: #a7a9bc; }
+      .page-editor__sidebar__buttons button.active, .page-editor__sidebar__buttons button:active, .page-editor__sidebar__buttons button:focus, .page-editor__sidebar__buttons button:hover {
+        color: #fff; }
+    .page-editor__sidebar__buttons hr {
+      border-color: #6b6c7e;
+      margin: 12px 8px; }
+  .page-editor__sidebar__content {
+    background-color: #fff;
+    border-left: 1px solid #e7e7ed;
+    height: calc(100vh - 160px);
+    overflow-x: hidden;
+    position: fixed;
+    right: 42px;
+    transform: translateX(100%);
+    transition: transform ease 0.5s;
+    width: 280px;
+    z-index: 0; }
+    .page-editor__sidebar__content.rtl {
+      transform: translateX(-100%); }
+    .page-editor__sidebar__content--open.page-editor__sidebar__content {
+      transform: translateX(0); }
+    @media (min-width: 1280px) {
+      .page-editor__sidebar__content {
+        height: calc(100vh - 120px); } }
+  body.has-control-menu .page-editor__sidebar {
+    height: calc(100vh - 160px);
+    top: 160px; }
+    @media (min-width: 1280px) {
+      body.has-control-menu .page-editor__sidebar {
+        height: calc(100vh - 120px);
+        top: 120px; } }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__theme-adapter-buttons .btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  color: #272833;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.4375rem 0.9375rem;
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  user-select: none;
+  vertical-align: middle; }
+  @media (prefers-reduced-motion: reduce) {
+    .page-editor__theme-adapter-buttons .btn {
+      transition: none; } }
+  .page-editor__theme-adapter-buttons .btn:hover {
+    color: #272833;
+    text-decoration: none; }
+  .page-editor__theme-adapter-buttons .btn:focus, .page-editor__theme-adapter-buttons .btn.focus {
+    box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.25rem #80acff;
+    outline: 0; }
+  .page-editor__theme-adapter-buttons .btn:active, .page-editor__theme-adapter-buttons .btn.active {
+    box-shadow: none; }
+    .page-editor__theme-adapter-buttons .btn:active:focus, .page-editor__theme-adapter-buttons .btn.active:focus {
+      box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.25rem #80acff; }
+  .page-editor__theme-adapter-buttons .btn.disabled, .page-editor__theme-adapter-buttons .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.4; }
+    .page-editor__theme-adapter-buttons .btn.disabled:focus, .page-editor__theme-adapter-buttons .btn.disabled:focus:active, .page-editor__theme-adapter-buttons .btn:disabled:focus, .page-editor__theme-adapter-buttons .btn:disabled:focus:active {
+      box-shadow: none; }
+    .page-editor__theme-adapter-buttons .btn.disabled:active, .page-editor__theme-adapter-buttons .btn:disabled:active {
+      pointer-events: none; }
+
+.page-editor__theme-adapter-buttons fieldset:disabled a.btn {
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 0.4; }
+  .page-editor__theme-adapter-buttons fieldset:disabled a.btn:active {
+    pointer-events: none; }
+
+.page-editor__theme-adapter-buttons .btn .inline-item {
+  font-size: 1rem; }
+
+.page-editor__theme-adapter-buttons .btn-section {
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  line-height: 1; }
+
+.page-editor__theme-adapter-buttons .btn-lg {
+  border-radius: 0.25rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  padding-bottom: 0.59375rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.59375rem; }
+  .page-editor__theme-adapter-buttons .btn-lg .inline-item {
+    font-size: 1.125rem; }
+  .page-editor__theme-adapter-buttons .btn-lg .btn-section {
+    font-size: 0.8125rem; }
+
+.page-editor__theme-adapter-buttons .btn-sm, .page-editor__theme-adapter-buttons .page-editor__theme-adapter-forms .form-group-sm .btn, .page-editor__theme-adapter-forms .form-group-sm .page-editor__theme-adapter-buttons .btn {
+  border-radius: 0.1875rem;
+  font-size: 0.875rem;
+  line-height: 1.15;
+  padding-bottom: 0.4375rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.4375rem; }
+  .page-editor__theme-adapter-buttons .btn-sm .btn-section, .page-editor__theme-adapter-buttons .page-editor__theme-adapter-forms .form-group-sm .btn .btn-section, .page-editor__theme-adapter-forms .form-group-sm .page-editor__theme-adapter-buttons .btn .btn-section {
+    font-size: 0.5625rem; }
+
+.page-editor__theme-adapter-buttons .btn-block {
+  display: block;
+  width: 100%; }
+  .page-editor__theme-adapter-buttons .btn-block + .btn-block {
+    margin-top: 0.5rem; }
+
+.page-editor__theme-adapter-buttons input[type='submit'].btn-block,
+.page-editor__theme-adapter-buttons input[type='reset'].btn-block,
+.page-editor__theme-adapter-buttons input[type='button'].btn-block {
+  width: 100%; }
+
+.page-editor__theme-adapter-buttons .btn-unstyled {
+  background-color: rgba(0, 0, 0, 0.001);
+  border-width: 0;
+  cursor: pointer;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  max-width: 100%;
+  padding: 0;
+  text-align: left;
+  text-transform: inherit;
+  vertical-align: baseline; }
+
+.page-editor__theme-adapter-buttons .btn-monospaced {
+  height: 2.5rem;
+  line-height: 1;
+  overflow: hidden;
+  padding-bottom: 0.25rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.25rem;
+  text-align: center;
+  white-space: normal;
+  width: 2.5rem;
+  word-wrap: break-word; }
+  .page-editor__theme-adapter-buttons .btn-monospaced.btn .lexicon-icon {
+    margin-top: 0; }
+
+.page-editor__theme-adapter-buttons .btn-monospaced.btn-lg {
+  height: 3rem;
+  padding-bottom: 0.375rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.375rem;
+  width: 3rem; }
+
+.page-editor__theme-adapter-buttons .btn-monospaced.btn-sm {
+  height: 2rem;
+  padding-bottom: 0.1875rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.1875rem;
+  width: 2rem; }
+
+.page-editor__theme-adapter-buttons .btn .c-inner {
+  margin: -0.4375rem -0.9375rem; }
+  @media (max-width: 767.98px) {
+    .page-editor__theme-adapter-buttons .btn .c-inner { } }
+
+.page-editor__theme-adapter-buttons .btn-unstyled .c-inner {
+  margin: 0;
+  max-width: none; }
+
+.page-editor__theme-adapter-buttons .btn-monospaced .c-inner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% + 0.5rem);
+  justify-content: center;
+  margin: -0.25rem 0;
+  padding: 0;
+  width: 100%; }
+
+.page-editor__theme-adapter-buttons .btn-sm .c-inner {
+  margin: -0.4375rem -0.75rem; }
+  @media (max-width: 767.98px) {
+    .page-editor__theme-adapter-buttons .btn-sm .c-inner { } }
+
+.page-editor__theme-adapter-buttons .btn-sm.btn-monospaced .c-inner {
+  height: calc(100% + 0.375rem);
+  margin: -0.1875rem 0; }
+
+.page-editor__theme-adapter-buttons .btn-lg .c-inner {
+  margin: -0.59375rem -1.5rem; }
+  @media (max-width: 767.98px) {
+    .page-editor__theme-adapter-buttons .btn-lg .c-inner { } }
+
+.page-editor__theme-adapter-buttons .btn-lg.btn-monospaced .c-inner {
+  height: calc(100% + 0.75rem);
+  margin: -0.375rem 0; }
+
+.page-editor__theme-adapter-buttons .btn-primary {
+  background-color: #0b5fff;
+  border-color: #0b5fff;
+  color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-primary:hover {
+    background-color: #0053f0;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-primary:focus, .page-editor__theme-adapter-buttons .btn-primary.focus {
+    background-color: #0053f0;
+    border-color: #004ad7;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-primary:active, .page-editor__theme-adapter-buttons .btn-primary.active,
+  .show > .page-editor__theme-adapter-buttons .btn-primary.dropdown-toggle {
+    background-color: #004ad7;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-primary:disabled, .page-editor__theme-adapter-buttons .btn-primary.disabled {
+    background-color: #0b5fff;
+    border-color: #0b5fff;
+    color: #fff; }
+
+.page-editor__theme-adapter-buttons .btn-secondary {
+  background-color: #fff;
+  border-color: #cdced9;
+  color: #6b6c7e; }
+  .page-editor__theme-adapter-buttons .btn-secondary:hover {
+    background-color: #f7f8f9;
+    border-color: #cdced9;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-secondary:focus, .page-editor__theme-adapter-buttons .btn-secondary.focus {
+    background-color: #f7f8f9;
+    border-color: #cdced9;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-secondary:active, .page-editor__theme-adapter-buttons .btn-secondary.active,
+  .show > .page-editor__theme-adapter-buttons .btn-secondary.dropdown-toggle {
+    background-color: #f1f2f5;
+    border-color: #cdced9;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-secondary:disabled, .page-editor__theme-adapter-buttons .btn-secondary.disabled {
+    background-color: #fff;
+    border-color: #cdced9;
+    color: #6b6c7e; }
+
+.page-editor__theme-adapter-buttons .btn-success {
+  background-color: #287d3c;
+  border-color: #287d3c;
+  color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-success:hover {
+    background-color: #226a33;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-success:focus, .page-editor__theme-adapter-buttons .btn-success.focus {
+    background-color: #226a33;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-success:active, .page-editor__theme-adapter-buttons .btn-success.active,
+  .show > .page-editor__theme-adapter-buttons .btn-success.dropdown-toggle {
+    background-color: #1c5629;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-success:disabled, .page-editor__theme-adapter-buttons .btn-success.disabled {
+    background-color: #287d3c;
+    border-color: #287d3c;
+    color: #fff; }
+
+.page-editor__theme-adapter-buttons .btn-info {
+  background-color: #2e5aac;
+  border-color: #2e5aac;
+  color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-info:hover {
+    background-color: #294f98;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-info:focus, .page-editor__theme-adapter-buttons .btn-info.focus {
+    background-color: #294f98;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-info:active, .page-editor__theme-adapter-buttons .btn-info.active,
+  .show > .page-editor__theme-adapter-buttons .btn-info.dropdown-toggle {
+    background-color: #234584;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-info:disabled, .page-editor__theme-adapter-buttons .btn-info.disabled {
+    background-color: #2e5aac;
+    border-color: #2e5aac;
+    color: #fff; }
+
+.page-editor__theme-adapter-buttons .btn-warning {
+  background-color: #b95000;
+  border-color: #b95000;
+  color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-warning:hover {
+    background-color: #9f4500;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-warning:focus, .page-editor__theme-adapter-buttons .btn-warning.focus {
+    background-color: #9f4500;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-warning:active, .page-editor__theme-adapter-buttons .btn-warning.active,
+  .show > .page-editor__theme-adapter-buttons .btn-warning.dropdown-toggle {
+    background-color: #863a00;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-warning:disabled, .page-editor__theme-adapter-buttons .btn-warning.disabled {
+    background-color: #b95000;
+    border-color: #b95000;
+    color: #fff; }
+
+.page-editor__theme-adapter-buttons .btn-danger {
+  background-color: #da1414;
+  border-color: #da1414;
+  color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-danger:hover {
+    background-color: #c31212;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-danger:focus, .page-editor__theme-adapter-buttons .btn-danger.focus {
+    background-color: #c31212;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-danger:active, .page-editor__theme-adapter-buttons .btn-danger.active,
+  .show > .page-editor__theme-adapter-buttons .btn-danger.dropdown-toggle {
+    background-color: #ab1010;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-danger:disabled, .page-editor__theme-adapter-buttons .btn-danger.disabled {
+    background-color: #da1414;
+    border-color: #da1414;
+    color: #fff; }
+
+.page-editor__theme-adapter-buttons .btn-light {
+  background-color: #f1f2f5;
+  border-color: #f1f2f5;
+  color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-light:hover {
+    background-color: #e2e4ea;
+    border-color: transparent;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-light:focus, .page-editor__theme-adapter-buttons .btn-light.focus {
+    background-color: #e2e4ea;
+    border-color: transparent;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-light:active, .page-editor__theme-adapter-buttons .btn-light.active,
+  .show > .page-editor__theme-adapter-buttons .btn-light.dropdown-toggle {
+    background-color: #d3d6e0;
+    border-color: transparent;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-light:disabled, .page-editor__theme-adapter-buttons .btn-light.disabled {
+    background-color: #f1f2f5;
+    border-color: #f1f2f5;
+    color: #272833; }
+
+.page-editor__theme-adapter-buttons .btn-dark {
+  background-color: #272833;
+  border-color: #272833;
+  color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-dark:hover {
+    background-color: #1c1c24;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-dark:focus, .page-editor__theme-adapter-buttons .btn-dark.focus {
+    background-color: #1c1c24;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-dark:active, .page-editor__theme-adapter-buttons .btn-dark.active,
+  .show > .page-editor__theme-adapter-buttons .btn-dark.dropdown-toggle {
+    background-color: #111116;
+    border-color: transparent;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-dark:disabled, .page-editor__theme-adapter-buttons .btn-dark.disabled {
+    background-color: #272833;
+    border-color: #272833;
+    color: #fff; }
+
+.page-editor__theme-adapter-buttons .btn-link {
+  border-radius: 1px;
+  box-shadow: none;
+  color: #0b5fff;
+  font-weight: 400;
+  text-decoration: none; }
+  .page-editor__theme-adapter-buttons .btn-link:hover {
+    color: #004ad7;
+    text-decoration: underline; }
+  .page-editor__theme-adapter-buttons .btn-link:focus, .page-editor__theme-adapter-buttons .btn-link.focus {
+    box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.25rem #80acff;
+    text-decoration: none; }
+  .page-editor__theme-adapter-buttons .btn-link:active, .page-editor__theme-adapter-buttons .btn-link.active,
+  .show > .page-editor__theme-adapter-buttons .btn-link.dropdown-toggle {
+    box-shadow: none; }
+    .page-editor__theme-adapter-buttons .btn-link:active:focus, .page-editor__theme-adapter-buttons .btn-link.active:focus,
+    .show > .page-editor__theme-adapter-buttons .btn-link.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.25rem #80acff; }
+  .page-editor__theme-adapter-buttons .btn-link:disabled, .page-editor__theme-adapter-buttons .btn-link.disabled {
+    box-shadow: none;
+    color: #0b5fff;
+    text-decoration: none; }
+
+.page-editor__theme-adapter-buttons .btn-outline-primary {
+  border-color: #0b5fff;
+  color: #0b5fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-primary:hover {
+    background-color: #f0f5ff;
+    border-color: #0b5fff;
+    color: #0b5fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-primary:focus, .page-editor__theme-adapter-buttons .btn-outline-primary.focus {
+    background-color: #f0f5ff;
+    color: #0b5fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-primary:active, .page-editor__theme-adapter-buttons .btn-outline-primary.active,
+  .show > .page-editor__theme-adapter-buttons .btn-outline-primary.dropdown-toggle {
+    background-color: #e6edf8;
+    border-color: #0b5fff;
+    color: #0b5fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-primary:disabled, .page-editor__theme-adapter-buttons .btn-outline-primary.disabled {
+    background-color: transparent;
+    color: #0b5fff; }
+
+.page-editor__theme-adapter-buttons .btn-outline-secondary {
+  border-color: #cdced9;
+  color: #6b6c7e; }
+  .page-editor__theme-adapter-buttons .btn-outline-secondary:hover {
+    background-color: rgba(39, 40, 51, 0.03);
+    border-color: transparent;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-outline-secondary:focus, .page-editor__theme-adapter-buttons .btn-outline-secondary.focus {
+    background-color: rgba(39, 40, 51, 0.03);
+    border-color: transparent;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-outline-secondary:active, .page-editor__theme-adapter-buttons .btn-outline-secondary.active,
+  .show > .page-editor__theme-adapter-buttons .btn-outline-secondary.dropdown-toggle {
+    background-color: rgba(39, 40, 51, 0.06);
+    border-color: transparent;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-outline-secondary:disabled, .page-editor__theme-adapter-buttons .btn-outline-secondary.disabled {
+    background-color: transparent;
+    color: #6b6c7e;
+    border-color: #6b6c7e; }
+
+.page-editor__theme-adapter-buttons .btn-outline-success {
+  border-color: #287d3c;
+  color: #287d3c; }
+  .page-editor__theme-adapter-buttons .btn-outline-success:hover {
+    background-color: #226a33;
+    border-color: #287d3c;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-success:focus, .page-editor__theme-adapter-buttons .btn-outline-success.focus {
+    background-color: #226a33;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-success:active, .page-editor__theme-adapter-buttons .btn-outline-success.active,
+  .show > .page-editor__theme-adapter-buttons .btn-outline-success.dropdown-toggle {
+    background-color: #1c5629;
+    border-color: #287d3c;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-success:disabled, .page-editor__theme-adapter-buttons .btn-outline-success.disabled {
+    background-color: transparent;
+    color: #287d3c; }
+
+.page-editor__theme-adapter-buttons .btn-outline-info {
+  border-color: #2e5aac;
+  color: #2e5aac; }
+  .page-editor__theme-adapter-buttons .btn-outline-info:hover {
+    background-color: #294f98;
+    border-color: #2e5aac;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-info:focus, .page-editor__theme-adapter-buttons .btn-outline-info.focus {
+    background-color: #294f98;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-info:active, .page-editor__theme-adapter-buttons .btn-outline-info.active,
+  .show > .page-editor__theme-adapter-buttons .btn-outline-info.dropdown-toggle {
+    background-color: #234584;
+    border-color: #2e5aac;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-info:disabled, .page-editor__theme-adapter-buttons .btn-outline-info.disabled {
+    background-color: transparent;
+    color: #2e5aac; }
+
+.page-editor__theme-adapter-buttons .btn-outline-warning {
+  border-color: #b95000;
+  color: #b95000; }
+  .page-editor__theme-adapter-buttons .btn-outline-warning:hover {
+    background-color: #9f4500;
+    border-color: #b95000;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-warning:focus, .page-editor__theme-adapter-buttons .btn-outline-warning.focus {
+    background-color: #9f4500;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-warning:active, .page-editor__theme-adapter-buttons .btn-outline-warning.active,
+  .show > .page-editor__theme-adapter-buttons .btn-outline-warning.dropdown-toggle {
+    background-color: #863a00;
+    border-color: #b95000;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-warning:disabled, .page-editor__theme-adapter-buttons .btn-outline-warning.disabled {
+    background-color: transparent;
+    color: #b95000; }
+
+.page-editor__theme-adapter-buttons .btn-outline-danger {
+  border-color: #da1414;
+  color: #da1414; }
+  .page-editor__theme-adapter-buttons .btn-outline-danger:hover {
+    background-color: #c31212;
+    border-color: #da1414;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-danger:focus, .page-editor__theme-adapter-buttons .btn-outline-danger.focus {
+    background-color: #c31212;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-danger:active, .page-editor__theme-adapter-buttons .btn-outline-danger.active,
+  .show > .page-editor__theme-adapter-buttons .btn-outline-danger.dropdown-toggle {
+    background-color: #ab1010;
+    border-color: #da1414;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-danger:disabled, .page-editor__theme-adapter-buttons .btn-outline-danger.disabled {
+    background-color: transparent;
+    color: #da1414; }
+
+.page-editor__theme-adapter-buttons .btn-outline-light {
+  border-color: #f1f2f5;
+  color: #f1f2f5; }
+  .page-editor__theme-adapter-buttons .btn-outline-light:hover {
+    background-color: #e2e4ea;
+    border-color: #f1f2f5;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-outline-light:focus, .page-editor__theme-adapter-buttons .btn-outline-light.focus {
+    background-color: #e2e4ea;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-outline-light:active, .page-editor__theme-adapter-buttons .btn-outline-light.active,
+  .show > .page-editor__theme-adapter-buttons .btn-outline-light.dropdown-toggle {
+    background-color: #d3d6e0;
+    border-color: #f1f2f5;
+    color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-outline-light:disabled, .page-editor__theme-adapter-buttons .btn-outline-light.disabled {
+    background-color: transparent;
+    color: #f1f2f5; }
+
+.page-editor__theme-adapter-buttons .btn-outline-dark {
+  border-color: #272833;
+  color: #272833; }
+  .page-editor__theme-adapter-buttons .btn-outline-dark:hover {
+    background-color: #1c1c24;
+    border-color: #272833;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-dark:focus, .page-editor__theme-adapter-buttons .btn-outline-dark.focus {
+    background-color: #1c1c24;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-dark:active, .page-editor__theme-adapter-buttons .btn-outline-dark.active,
+  .show > .page-editor__theme-adapter-buttons .btn-outline-dark.dropdown-toggle {
+    background-color: #111116;
+    border-color: #272833;
+    color: #fff; }
+  .page-editor__theme-adapter-buttons .btn-outline-dark:disabled, .page-editor__theme-adapter-buttons .btn-outline-dark.disabled {
+    background-color: transparent;
+    color: #272833; }
+
+.page-editor__theme-adapter-buttons .btn-outline-borderless {
+  border-color: transparent; }
+  .page-editor__theme-adapter-buttons .btn-outline-borderless:hover, .page-editor__theme-adapter-buttons .btn-outline-borderless:focus {
+    border-color: transparent; }
+  .page-editor__theme-adapter-buttons .btn-outline-borderless:disabled, .page-editor__theme-adapter-buttons .btn-outline-borderless.disabled {
+    border-color: transparent; }
+
+.page-editor__theme-adapter-buttons .btn-outline-borderless:not(:disabled):not(.disabled):active {
+  border-color: transparent; }
+
+.page-editor__theme-adapter-buttons .show > .btn-outline-borderless.dropdown-toggle {
+  border-color: transparent; }
+
+.page-editor__theme-adapter-buttons .btn .loading-animation {
+  font-size: 1em;
+  margin-top: -0.1em; }
+
+.page-editor__theme-adapter-buttons .navbar-nav li {
+  line-height: 1.5;
+  padding-left: 0; }
+
+.page-editor__theme-adapter-forms [type='checkbox'] {
+  cursor: pointer;
+  height: 14px;
+  width: 14px; }
+  .page-editor__theme-adapter-forms [type='checkbox']:disabled {
+    cursor: not-allowed; }
+
+.page-editor__theme-adapter-forms [type='radio'] {
+  cursor: pointer;
+  height: 15px;
+  width: 14px; }
+  .page-editor__theme-adapter-forms [type='radio']:disabled {
+    cursor: not-allowed; }
+
+.page-editor__theme-adapter-forms fieldset {
+  word-wrap: break-word; }
+
+.page-editor__theme-adapter-forms label {
+  color: #272833;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  max-width: 100%;
+  word-wrap: break-word; }
+  .page-editor__theme-adapter-forms label[for] {
+    cursor: pointer; }
+  .page-editor__theme-adapter-forms label + .form-text {
+    margin-bottom: 0.25rem;
+    margin-top: 0; }
+  .page-editor__theme-adapter-forms label .reference-mark {
+    color: #b95000;
+    font-size: 6px; }
+
+.page-editor__theme-adapter-forms .form-control-label {
+  display: inline;
+  margin-bottom: 0; }
+
+.page-editor__theme-adapter-forms .form-control-label-text {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  max-width: 100%;
+  word-wrap: break-word; }
+
+.page-editor__theme-adapter-forms .form-control {
+  background-color: #f1f2f5;
+  border-color: #e7e7ed;
+  border-style: solid;
+  border-bottom-width: 0.0625rem;
+  border-left-width: 0.0625rem;
+  border-right-width: 0.0625rem;
+  border-top-width: 0.0625rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  color: #272833;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 2.5rem;
+  line-height: 1.5;
+  min-width: 0;
+  padding-bottom: 0.4375rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.4375rem;
+  width: 100%;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  @media (prefers-reduced-motion: reduce) {
+    .page-editor__theme-adapter-forms .form-control {
+      transition: none; } }
+  @media (max-width: 767.98px) {
+    .page-editor__theme-adapter-forms .form-control {
+      font-size: 1rem; } }
+  .page-editor__theme-adapter-forms .form-control::placeholder {
+    color: #6b6c7e;
+    opacity: 1; }
+  .page-editor__theme-adapter-forms .form-control:focus, .page-editor__theme-adapter-forms .form-control.focus {
+    background-color: #f0f5ff;
+    border-color: #80acff;
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 0 0.125rem #fff, 0 0 0 0.25rem #80acff;
+    color: #272833;
+    outline: 0; }
+  .page-editor__theme-adapter-forms .form-control:disabled, .page-editor__theme-adapter-forms .form-control.disabled {
+    background-color: #f1f2f5;
+    border-color: #f1f2f5;
+    color: #a7a9bc;
+    cursor: not-allowed;
+    opacity: 1; }
+  .page-editor__theme-adapter-forms .form-control:not([type='range']) {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none; }
+  .page-editor__theme-adapter-forms .form-control::-ms-clear, .page-editor__theme-adapter-forms .form-control::-ms-reveal {
+    display: none;
+    height: 0;
+    width: 0; }
+  .page-editor__theme-adapter-forms .form-control .label {
+    border-width: 0.0625rem;
+    font-size: 0.75rem;
+    height: auto;
+    margin-bottom: 0.3125rem;
+    margin-right: 0.625rem;
+    margin-top: 0.3125rem;
+    min-height: 1.5rem;
+    padding-bottom: 0.3125rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.3125rem;
+    text-transform: none; }
+    .page-editor__theme-adapter-forms .form-control .label .inline-item .lexicon-icon {
+      height: 1em;
+      width: 1em; }
+    .page-editor__theme-adapter-forms .form-control .label .label-item {
+      margin-bottom: -0.0625rem;
+      margin-top: -0.0625rem; }
+      .page-editor__theme-adapter-forms .form-control .label .label-item .lexicon-icon {
+        height: 1em;
+        width: 1em; }
+    .page-editor__theme-adapter-forms .form-control .label .close {
+      font-size: 0.625rem; }
+    .page-editor__theme-adapter-forms .form-control .label .sticker {
+      height: 0.875rem;
+      line-height: 0.875rem;
+      width: 0.875rem; }
+    .page-editor__theme-adapter-forms .form-control .label > .c-inner {
+      margin-bottom: -0.3125rem;
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
+      margin-top: -0.3125rem; }
+
+.page-editor__theme-adapter-forms .form-control-plaintext {
+  background-clip: border-box;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-bottom-width: 0.0625rem;
+  border-left-width: 0.0625rem;
+  border-right-width: 0.0625rem;
+  border-top-width: 0.0625rem;
+  color: #272833;
+  display: block;
+  font-size: 1rem;
+  height: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+  min-width: 0;
+  padding-bottom: 0.4375rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.4375rem;
+  text-overflow: ellipsis;
+  width: 100%; }
+  @media (max-width: 767.98px) {
+    .page-editor__theme-adapter-forms .form-control-plaintext {
+      font-size: 1rem; } }
+  .page-editor__theme-adapter-forms .form-control-plaintext.form-control-sm, .page-editor__theme-adapter-forms .form-control-plaintext.form-control-lg {
+    padding-right: 0;
+    padding-left: 0; }
+
+.page-editor__theme-adapter-forms .form-control-hidden {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  z-index: -1; }
+
+.page-editor__theme-adapter-forms div.form-control {
+  height: auto;
+  min-height: 2.5rem; }
+
+.page-editor__theme-adapter-forms div.form-control-lg {
+  min-height: 3rem; }
+
+.page-editor__theme-adapter-forms div.form-control-sm {
+  min-height: 2rem; }
+
+.page-editor__theme-adapter-forms .form-control-tag-group {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  padding-bottom: 0.125rem;
+  padding-top: 0.125rem; }
+  .page-editor__theme-adapter-forms .form-control-tag-group .autofit-row {
+    align-items: center;
+    flex-grow: 1;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    width: auto; }
+  .page-editor__theme-adapter-forms .form-control-tag-group .autofit-col {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+  .page-editor__theme-adapter-forms .form-control-tag-group .input-group-item {
+    align-items: flex-start; }
+  .page-editor__theme-adapter-forms .form-control-tag-group .inline-item {
+    height: 1.5rem;
+    margin-bottom: 0.3125rem;
+    margin-top: 0.3125rem; }
+  .page-editor__theme-adapter-forms .form-control-tag-group .btn {
+    height: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.3125rem;
+    margin-top: 0.3125rem;
+    padding-bottom: 0;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0; }
+    .page-editor__theme-adapter-forms .form-control-tag-group .btn .c-inner {
+      margin-bottom: 0;
+      margin-left: -0.75rem;
+      margin-right: -0.75rem;
+      margin-top: 0; }
+  .page-editor__theme-adapter-forms .form-control-tag-group .btn-monospaced,
+  .page-editor__theme-adapter-forms .form-control-tag-group .component-action {
+    height: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.3125rem;
+    margin-top: 0.3125rem;
+    padding-left: 0;
+    padding-right: 0;
+    width: 1.5rem; }
+    .page-editor__theme-adapter-forms .form-control-tag-group .btn-monospaced .c-inner,
+    .page-editor__theme-adapter-forms .form-control-tag-group .component-action .c-inner {
+      margin-left: 0;
+      margin-right: 0; }
+
+.page-editor__theme-adapter-forms .form-control-inset {
+  background-color: transparent;
+  border-width: 0;
+  color: #272833;
+  flex-grow: 1;
+  margin-bottom: 0.3125rem;
+  margin-top: 0.3125rem;
+  min-height: 1.5rem;
+  padding: 0; }
+  .page-editor__theme-adapter-forms .form-control-inset:focus {
+    outline: 0; }
+  .page-editor__theme-adapter-forms .form-control-inset:disabled {
+    background-color: #f1f2f5;
+    border-color: #f1f2f5;
+    color: #a7a9bc;
+    cursor: not-allowed;
+    opacity: 1; }
+
+.page-editor__theme-adapter-forms select.form-control {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'%3E%3Cpath%20class='lexicon-icon-outline%20caret-double-l-top'%20d='M347.913%20199.336l-81.538-85c-5.413-5.642-14.188-5.642-19.6%200l-81.538%2085c-8.731%209.101-2.548%2024.664%209.8%2024.664h163.077c12.348%200%2018.531-15.563%209.8-24.664z'%20fill='%236b6c7e'/%3E%3Cpath%20class='lexicon-icon-outline%20caret-double-l-bottom'%20d='M165.236%20312.664l81.538%2085c5.412%205.642%2014.188%205.642%2019.6%200l81.538-85c8.731-9.101%202.548-24.664-9.8-24.664H175.035c-12.347%200-18.531%2015.563-9.8%2024.664z'%20fill='%236b6c7e'/%3E%3C/svg%3E");
+  background-position: right 0.5em center;
+  background-repeat: no-repeat;
+  background-size: 1.5em auto;
+  cursor: pointer;
+  padding-right: 2em;
+  color: #272833; }
+  .page-editor__theme-adapter-forms select.form-control:focus, .page-editor__theme-adapter-forms select.form-control.focus {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'%3E%3Cpath%20class='lexicon-icon-outline%20caret-double-l-top'%20d='M347.913%20199.336l-81.538-85c-5.413-5.642-14.188-5.642-19.6%200l-81.538%2085c-8.731%209.101-2.548%2024.664%209.8%2024.664h163.077c12.348%200%2018.531-15.563%209.8-24.664z'%20fill='%236b6c7e'/%3E%3Cpath%20class='lexicon-icon-outline%20caret-double-l-bottom'%20d='M165.236%20312.664l81.538%2085c5.412%205.642%2014.188%205.642%2019.6%200l81.538-85c8.731-9.101%202.548-24.664-9.8-24.664H175.035c-12.347%200-18.531%2015.563-9.8%2024.664z'%20fill='%236b6c7e'/%3E%3C/svg%3E"); }
+  .page-editor__theme-adapter-forms select.form-control:disabled, .page-editor__theme-adapter-forms select.form-control.disabled {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'%3E%3Cpath%20class='lexicon-icon-outline%20caret-double-l-top'%20d='M347.913%20199.336l-81.538-85c-5.413-5.642-14.188-5.642-19.6%200l-81.538%2085c-8.731%209.101-2.548%2024.664%209.8%2024.664h163.077c12.348%200%2018.531-15.563%209.8-24.664z'%20fill='%23a7a9bc'/%3E%3Cpath%20class='lexicon-icon-outline%20caret-double-l-bottom'%20d='M165.236%20312.664l81.538%2085c5.412%205.642%2014.188%205.642%2019.6%200l81.538-85c8.731-9.101%202.548-24.664-9.8-24.664H175.035c-12.347%200-18.531%2015.563-9.8%2024.664z'%20fill='%23a7a9bc'/%3E%3C/svg%3E"); }
+    .page-editor__theme-adapter-forms select.form-control:disabled > option, .page-editor__theme-adapter-forms select.form-control.disabled > option {
+      cursor: not-allowed; }
+  .page-editor__theme-adapter-forms select.form-control option {
+    cursor: pointer; }
+  .page-editor__theme-adapter-forms select.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0; }
+  .page-editor__theme-adapter-forms select.form-control:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #272833; }
+  .page-editor__theme-adapter-forms select.form-control:focus::-ms-value {
+    background-color: transparent;
+    color: inherit; }
+
+.page-editor__theme-adapter-forms .form-control-select {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'%3E%3Cpath%20class='lexicon-icon-outline%20caret-double-l-top'%20d='M347.913%20199.336l-81.538-85c-5.413-5.642-14.188-5.642-19.6%200l-81.538%2085c-8.731%209.101-2.548%2024.664%209.8%2024.664h163.077c12.348%200%2018.531-15.563%209.8-24.664z'%20fill='%236b6c7e'/%3E%3Cpath%20class='lexicon-icon-outline%20caret-double-l-bottom'%20d='M165.236%20312.664l81.538%2085c5.412%205.642%2014.188%205.642%2019.6%200l81.538-85c8.731-9.101%202.548-24.664-9.8-24.664H175.035c-12.347%200-18.531%2015.563-9.8%2024.664z'%20fill='%236b6c7e'/%3E%3C/svg%3E");
+  background-position: right 0.5em center;
+  background-repeat: no-repeat;
+  background-size: 1.5em auto;
+  padding-right: 2em; }
+
+.page-editor__theme-adapter-forms select.form-control[size] {
+  background-image: none;
+  height: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  scrollbar-width: thin;
+  color: #272833; }
+  .page-editor__theme-adapter-forms select.form-control[size]:focus, .page-editor__theme-adapter-forms select.form-control[size].focus {
+    background-image: none; }
+  .page-editor__theme-adapter-forms select.form-control[size] option {
+    padding: 0.25rem 0.5rem; }
+
+.page-editor__theme-adapter-forms select.form-control[multiple] {
+  background-image: none;
+  height: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  scrollbar-width: thin;
+  color: #272833; }
+  .page-editor__theme-adapter-forms select.form-control[multiple]:focus, .page-editor__theme-adapter-forms select.form-control[multiple].focus {
+    background-image: none; }
+  .page-editor__theme-adapter-forms select.form-control[multiple] option {
+    padding: 0.25rem 0.5rem; }
+
+.page-editor__theme-adapter-forms textarea.form-control,
+.page-editor__theme-adapter-forms textarea.form-control-plaintext,
+.page-editor__theme-adapter-forms .form-control.form-control-textarea {
+  height: 100px;
+  resize: vertical; }
+
+.page-editor__theme-adapter-forms .form-control-file {
+  cursor: pointer;
+  display: block;
+  width: 100%; }
+  .page-editor__theme-adapter-forms .form-control-file::-webkit-file-upload-button {
+    cursor: pointer; }
+
+.page-editor__theme-adapter-forms .form-control[type='range'] {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0; }
+  .page-editor__theme-adapter-forms .form-control[type='range']:focus {
+    box-shadow: none; }
+    .page-editor__theme-adapter-forms .form-control[type='range']:focus::-webkit-slider-thumb {
+      box-shadow: 0 0 0 0.125rem #fff, 0 0 0 0.25rem #80acff; }
+  .page-editor__theme-adapter-forms .form-control[type='range']::-webkit-slider-thumb {
+    border-radius: 100px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+
+.page-editor__theme-adapter-forms .form-control-range {
+  display: block;
+  width: 100%; }
+
+.page-editor__theme-adapter-forms .form-check {
+  display: block;
+  padding-left: 0;
+  position: relative; }
+
+.page-editor__theme-adapter-forms .form-check-label {
+  cursor: pointer;
+  display: inline;
+  margin-bottom: 0;
+  position: relative; }
+
+.page-editor__theme-adapter-forms .form-check-input {
+  margin-left: 0;
+  margin-top: 0;
+  position: static; }
+  .page-editor__theme-adapter-forms .form-check-input[disabled], .page-editor__theme-adapter-forms .form-check-input:disabled {
+    cursor: not-allowed; }
+    .page-editor__theme-adapter-forms .form-check-input[disabled] ~ .form-check-label,
+    .page-editor__theme-adapter-forms .form-check-input[disabled] + .form-check-label-text, .page-editor__theme-adapter-forms .form-check-input:disabled ~ .form-check-label,
+    .page-editor__theme-adapter-forms .form-check-input:disabled + .form-check-label-text {
+      color: #a7a9bc;
+      cursor: not-allowed; }
+
+.page-editor__theme-adapter-forms .form-check-label-text {
+  margin-left: -0.1875rem;
+  padding-left: 0.5rem; }
+
+.page-editor__theme-adapter-forms .form-check-inline {
+  align-items: center;
+  display: inline-flex;
+  margin-right: 0.75rem;
+  padding-left: 0; }
+  .page-editor__theme-adapter-forms .form-check-inline .form-check-input {
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 0;
+    position: static; }
+
+.page-editor__theme-adapter-forms fieldset[disabled] label,
+.page-editor__theme-adapter-forms label.disabled {
+  color: #a7a9bc;
+  cursor: not-allowed;
+  opacity: 1; }
+
+.page-editor__theme-adapter-forms fieldset[disabled] label .form-control {
+  font-weight: normal;
+  opacity: 1; }
+
+fieldset[disabled] .page-editor__theme-adapter-forms .form-control, .page-editor__theme-adapter-forms .form-control[disabled] {
+  border-color: #f1f2f5;
+  color: #a7a9bc;
+  cursor: not-allowed;
+  opacity: 1; }
+  fieldset[disabled] .page-editor__theme-adapter-forms .form-control::placeholder, .page-editor__theme-adapter-forms .form-control[disabled]::placeholder {
+    color: #a7a9bc; }
+
+@media (-webkit-min-device-pixel-ratio: 0) {
+  .page-editor__theme-adapter-forms .form-control[disabled] > option {
+    color: #a7a9bc; } }
+
+.page-editor__theme-adapter-forms .form-control-file:disabled {
+  cursor: not-allowed; }
+  .page-editor__theme-adapter-forms .form-control-file:disabled::-webkit-file-upload-button {
+    cursor: not-allowed; }
+
+.page-editor__theme-adapter-forms .form-control[readonly] {
+  border-color: #e7e7ed;
+  opacity: 1;
+  background-color: #fff; }
+  .page-editor__theme-adapter-forms .form-control[readonly]:focus, .page-editor__theme-adapter-forms .form-control[readonly].focus {
+    border-color: #80acff;
+    box-shadow: none; }
+
+.page-editor__theme-adapter-forms .form-control-plaintext[readonly] {
+  border-radius: 0.25rem;
+  outline: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  .page-editor__theme-adapter-forms .form-control-plaintext[readonly]:focus, .page-editor__theme-adapter-forms .form-control-plaintext[readonly].focus {
+    border-color: #80acff;
+    box-shadow: none; }
+
+.page-editor__theme-adapter-forms .form-control-lg {
+  border-radius: 0.375rem;
+  font-size: 1.125rem;
+  height: 3rem;
+  padding-bottom: 0.4375rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.4375rem; }
+
+.page-editor__theme-adapter-forms textarea.form-control-lg,
+.page-editor__theme-adapter-forms .form-control-lg.form-control-textarea {
+  height: 120px; }
+
+.page-editor__theme-adapter-forms .form-control-sm {
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  height: 2rem;
+  line-height: 1.5;
+  padding: 0.25rem 0.75rem; }
+
+.page-editor__theme-adapter-forms .form-control-lg {
+  border-radius: 0.375rem;
+  font-size: 1.125rem;
+  height: 3rem;
+  line-height: 1.5;
+  padding: 0.4375rem 1rem; }
+
+.page-editor__theme-adapter-forms .form-control-sm, .page-editor__theme-adapter-forms .form-group-sm .form-control,
+.page-editor__theme-adapter-forms .form-group-sm .form-control-plaintext {
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  height: 2rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem; }
+
+.page-editor__theme-adapter-forms .form-group-sm select.form-control {
+  height: 2rem; }
+
+.page-editor__theme-adapter-forms .form-group-sm textarea.form-control,
+.page-editor__theme-adapter-forms .form-group-sm .form-control.form-control-textarea {
+  height: 80px; }
+
+.page-editor__theme-adapter-forms textarea.form-control-sm,
+.page-editor__theme-adapter-forms .form-control-sm.form-control-textarea {
+  height: 80px; }
+
+.page-editor__theme-adapter-forms .form-group {
+  margin-bottom: 1.5rem; }
+
+.page-editor__theme-adapter-forms .col-form-label {
+  font-size: inherit;
+  line-height: 1.5;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem; }
+
+.page-editor__theme-adapter-forms .col-form-label-lg {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem; }
+
+.page-editor__theme-adapter-forms .col-form-label-sm {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding-bottom: 0.3125rem;
+  padding-top: 0.3125rem; }
+
+.page-editor__theme-adapter-forms .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px; }
+  .page-editor__theme-adapter-forms .form-row > .col,
+  .page-editor__theme-adapter-forms .form-row > [class*='col-'] {
+    padding-left: 5px;
+    padding-right: 5px; }
+
+.page-editor__theme-adapter-forms .form-inline {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap; }
+  .page-editor__theme-adapter-forms .form-inline .form-check {
+    width: 100%; }
+  @media (min-width: 576px) {
+    .page-editor__theme-adapter-forms .form-inline label {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0; }
+    .page-editor__theme-adapter-forms .form-inline .form-group {
+      align-items: center;
+      display: flex;
+      flex-flow: row wrap;
+      flex: 0 0 auto;
+      margin-bottom: 0; }
+    .page-editor__theme-adapter-forms .form-inline .form-control {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto; }
+    .page-editor__theme-adapter-forms .form-inline .form-control-plaintext {
+      display: inline-block; }
+    .page-editor__theme-adapter-forms .form-inline .input-group,
+    .page-editor__theme-adapter-forms .form-inline .custom-select {
+      width: auto; }
+    .page-editor__theme-adapter-forms .form-inline .form-check {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      padding-left: 0;
+      width: auto; }
+    .page-editor__theme-adapter-forms .form-inline .form-check-input {
+      flex-shrink: 0;
+      margin-left: 0;
+      margin-right: 0.25rem;
+      margin-top: 0;
+      position: relative; }
+    .page-editor__theme-adapter-forms .form-inline .custom-control {
+      align-items: center;
+      justify-content: center; }
+    .page-editor__theme-adapter-forms .form-inline .custom-control-label {
+      margin-bottom: 0; } }
+
+.page-editor__theme-adapter-forms .form-group-autofit {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem; }
+  @media (min-width: 576px) {
+    .page-editor__theme-adapter-forms .form-group-autofit {
+      flex-direction: row;
+      width: 100%; } }
+  .page-editor__theme-adapter-forms .form-group-autofit label {
+    align-self: flex-start; }
+  .page-editor__theme-adapter-forms .form-group-autofit .form-group-item {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1;
+    min-width: 25px;
+    position: relative;
+    width: 100%; }
+    .page-editor__theme-adapter-forms .form-group-autofit .form-group-item:not(:last-child) {
+      margin-bottom: 1.5rem; }
+      @media (max-width: 575.98px) {
+        .page-editor__theme-adapter-forms .form-group-autofit .form-group-item:not(:last-child) {
+          margin-bottom: 1rem; } }
+  @media (min-width: 576px) {
+    .page-editor__theme-adapter-forms .form-group-autofit > .form-group-item:not(:last-child) {
+      margin-bottom: 0;
+      margin-right: 12px; } }
+  .page-editor__theme-adapter-forms .form-group-autofit .form-group-item-shrink {
+    flex-shrink: 0;
+    max-width: 100%;
+    width: auto; }
+
+@media (max-width: 575.98px) {
+  .page-editor__theme-adapter-forms .form-group-autofit .form-group-item-label:not(:last-child) {
+    margin-bottom: 0; } }
+
+@media (min-width: 576px) {
+  .page-editor__theme-adapter-forms .form-group-item-label {
+    justify-content: center;
+    min-height: 2.5rem; }
+    .page-editor__theme-adapter-forms .form-group-item-label > label {
+      margin-bottom: 0;
+      max-width: 12.5rem; } }
+
+@media (min-width: 576px) {
+  .page-editor__theme-adapter-forms .form-group-item-label-spacer {
+    margin-top: 1.5625rem; } }
+
+.page-editor__theme-adapter-forms .form-group {
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .page-editor__theme-adapter-forms .form-group {
+      margin-bottom: 1rem; } }
+
+.page-editor__theme-adapter-forms .form-group-sm {
+  margin-bottom: 1rem; }
+  .page-editor__theme-adapter-forms .form-group-sm label {
+    margin-bottom: 0.1875rem; }
+  .page-editor__theme-adapter-forms .form-group-sm select[multiple],
+  .page-editor__theme-adapter-forms .form-group-sm .form-control[size] {
+    height: auto; }
+  .page-editor__theme-adapter-forms .form-group-sm .form-feedback-item ~ .form-feedback-item,
+  .page-editor__theme-adapter-forms .form-group-sm .form-feedback-item ~ .form-text,
+  .page-editor__theme-adapter-forms .form-group-sm .form-text ~ .form-feedback-item,
+  .page-editor__theme-adapter-forms .form-group-sm .form-text ~ .form-text {
+    margin-top: 0; }
+  @media (min-width: 576px) {
+    .page-editor__theme-adapter-forms .form-group-sm .form-group-item-label {
+      min-height: 2rem; }
+      .page-editor__theme-adapter-forms .form-group-sm .form-group-item-label > label {
+        margin-bottom: 0; } }
+  @media (min-width: 576px) {
+    .page-editor__theme-adapter-forms .form-group-sm .form-group-item-label-spacer {
+      margin-top: 1.5625rem; } }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__toolbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(205, 206, 217, 0.5);
+  color: #6b6c7e;
+  margin-bottom: 0;
+  width: 100%; }
+  .page-editor__toolbar--master-layout {
+    background-color: #f0f5ff;
+    border-bottom: 1px solid #80acff; }
+    @media (min-width: 1280px) {
+      .page-editor__toolbar--master-layout .responsive-mode.navbar-nav:first-child .nav-item:last-child {
+        left: 50%;
+        margin-left: 0;
+        position: absolute;
+        transform: translateX(-50%); } }
+  .page-editor__toolbar .btn-secondary:active,
+  .page-editor__toolbar .btn-secondary[aria-pressed='true'],
+  .page-editor__toolbar .btn-secondary[aria-pressed='true']:hover {
+    background-color: #f1f2f5;
+    border-color: #cdced9; }
+  .page-editor__toolbar > .container-fluid {
+    flex-direction: column;
+    padding: 0;
+    white-space: nowrap; }
+    @media (min-width: 1280px) {
+      .page-editor__toolbar > .container-fluid {
+        flex-direction: row; } }
+    .page-editor__toolbar > .container-fluid > .navbar-nav {
+      order: 2;
+      padding: 12px; }
+      @media (min-width: 1280px) {
+        .page-editor__toolbar > .container-fluid > .navbar-nav {
+          padding-bottom: 16px;
+          padding-top: 16px; } }
+      .page-editor__toolbar > .container-fluid > .navbar-nav:first-child {
+        align-self: flex-start;
+        flex: 1;
+        order: 1;
+        padding-right: 0; }
+        @media (min-width: 1280px) {
+          .page-editor__toolbar > .container-fluid > .navbar-nav:first-child {
+            order: 0; } }
+        .page-editor__toolbar > .container-fluid > .navbar-nav:first-child.responsive-mode .nav-item:last-child {
+          margin-left: 16px; }
+          @media (min-width: 1280px) {
+            .page-editor__toolbar > .container-fluid > .navbar-nav:first-child.responsive-mode .nav-item:last-child {
+              left: 50%;
+              margin-left: 0;
+              position: absolute;
+              transform: translateX(-50%); } }
+          .page-editor__toolbar > .container-fluid > .navbar-nav:first-child.responsive-mode .nav-item:last-child .btn.active .lexicon-icon {
+            fill: #272833; }
+      .page-editor__toolbar > .container-fluid > .navbar-nav:last-child {
+        border-bottom: 1px solid rgba(205, 206, 217, 0.5);
+        justify-content: flex-end;
+        order: 0;
+        padding-left: 4px;
+        width: 100%; }
+        @media (min-width: 1280px) {
+          .page-editor__toolbar > .container-fluid > .navbar-nav:last-child {
+            border-bottom: 0;
+            width: auto; } }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__topper {
+  position: relative; }
+  .page-editor__topper:after {
+    box-shadow: inset 0 0 0 2px rgba(179, 205, 255, 0);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transition: box-shadow ease 0.2s;
+    width: 100%; }
+  .page-editor__topper .page-editor__row:not(.no-gutters) > .page-editor__col:before {
+    left: 12px;
+    width: calc(100% - 24px); }
+  .page-editor__topper:focus {
+    outline: none; }
+  .page-editor__topper.dragged {
+    opacity: 0.5; }
+  .page-editor__topper__bar {
+    background-color: #0b5fff;
+    border-radius: 2px 2px 0 0;
+    bottom: calc(100% + 2px);
+    box-shadow: 0 0 0 2px #0b5fff;
+    color: #fff;
+    font-size: 12px;
+    height: 22px;
+    left: 2px;
+    line-height: 22px;
+    max-width: calc(100% - 4px);
+    opacity: 0;
+    padding: 0 8px 0 4px;
+    position: absolute;
+    transition: box-shadow ease 0.2s, opacity ease 0.2s;
+    z-index: -1; }
+    .page-editor__topper__bar--inset {
+      border-radius: 0 0 2px;
+      top: 2px;
+      transform: translateY(0); }
+    .page-editor__topper__bar--mapped {
+      background-color: #af78ff;
+      box-shadow: 0 0 0 2px #af78ff; }
+  .page-editor__topper__content .alert {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  .page-editor__topper.active > .page-editor__topper__bar {
+    opacity: 1;
+    transform: translateY(2px);
+    z-index: 987; }
+  .page-editor__topper.hovered:after {
+    box-shadow: inset 0 0 0 2px #80acff; }
+  .page-editor__topper.active:after {
+    box-shadow: inset 0 0 0 2px #0b5fff;
+    z-index: 1; }
+  .page-editor__topper.drag-over-bottom:after {
+    border-bottom: 4px solid #80acff; }
+  .page-editor__topper.drag-over-top:after {
+    border-top: 4px solid #80acff; }
+  .page-editor__topper.drag-over-bottom.page-editor__col:after {
+    border: none; }
+  .page-editor__topper.drag-over-bottom.page-editor__col:before {
+    border-bottom: 4px solid #80acff; }
+  .page-editor__topper.drag-over-top.page-editor__col:after {
+    border: none; }
+  .page-editor__topper.drag-over-top.page-editor__col:before {
+    border-top: 4px solid #80acff; }
+  .page-editor__topper.drag-over-middle > .page-editor__topper__content > .page-editor__container, .page-editor__topper.drag-over-middle.page-editor__col.empty:before, .page-editor__topper.drag-over-middle.page-editor__collection-item:before {
+    box-shadow: inset 0 0 0 4px #80acff; }
+  .page-editor__topper.drag-over-middle.page-editor__col > .page-editor__col__border > :last-child:after {
+    border-bottom: 4px solid #80acff; }
+  .page-editor__topper.drag-over-middle .page-editor__no-fragments-message {
+    border: 2px solid #80acff; }
+    .page-editor__topper.drag-over-middle .page-editor__no-fragments-message .page-editor__no-fragments-message__title {
+      color: #cdced9; }
+  .page-editor__topper.not-droppable.page-editor__col:before {
+    box-shadow: none; }
+  .page-editor__topper.not-droppable.page-editor__col > .page-editor__col__border,
+  .page-editor__topper.not-droppable.page-editor__collection-item > .page-editor__collection-item__border {
+    border: 1px solid #da1414; }
+  .page-editor__topper.not-droppable > .page-editor__topper__content > .page-editor__container:before, .page-editor__topper.not-droppable.page-editor__collection-item:before {
+    box-shadow: inset 0 0 0 1px #da1414;
+    position: absolute; }
+  .page-editor__topper[data-not-droppable-message],
+  .page-editor__topper [data-not-droppable-message] {
+    position: relative; }
+  .page-editor__topper[data-not-droppable-message]:after,
+  .page-editor__topper [data-not-droppable-message]:after {
+    background-color: #da1414;
+    border-radius: 2px;
+    color: #fff;
+    content: attr(data-not-droppable-message) " ";
+    font-size: 10px;
+    height: auto;
+    left: 16px;
+    max-width: calc(100% - 32px);
+    padding: 2px 6px;
+    position: absolute;
+    top: 0;
+    transform: translateY(4px);
+    width: auto; }
+  .page-editor__topper.page-editor__collection-item[data-not-droppable-message]:after {
+    left: 4px; }
+  .page-editor__topper[data-not-droppable-message]:before {
+    height: auto;
+    width: calc(100% - 32px); }
+    @media (min-width: 992px) {
+      .page-editor__topper[data-not-droppable-message]:before {
+        height: 20px;
+        width: auto; } }
+  .page-editor__topper.page-editor__collection-item[data-not-droppable-message]:before {
+    left: 4px; }
+  .page-editor__topper__drag-icon {
+    cursor: grab;
+    height: 16px;
+    top: 1px;
+    width: 16px; }
+  .page-editor__topper__icon {
+    fill: #fff;
+    padding: 0;
+    position: relative; }
+  .page-editor__topper__item {
+    margin: 0; }
+  .page-editor__topper__title {
+    cursor: default;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    margin-right: 8px;
+    min-width: 44px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .page-editor__topper--mapped:after {
+    box-shadow: inset 0 0 0 1px #dfc9ff; }
+  .page-editor__topper--mapped.hovered:after {
+    box-shadow: inset 0 0 0 2px rgba(175, 120, 255, 0.5); }
+  .page-editor__topper--mapped.active:after {
+    box-shadow: inset 0 0 0 2px #af78ff; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__translation {
+  min-width: 35ch; }
+  .page-editor__translation__label {
+    text-transform: uppercase; }
+    .page-editor__translation__label-wrapper {
+      width: auto; }
+    .page-editor__translation__label.default {
+      border-color: #2e5aac;
+      color: #2e5aac; }
+    .page-editor__translation__label.untranslated, .page-editor__translation__label.translating {
+      border-color: #b95000;
+      color: #b95000; }
+    .page-editor__translation__label.translated {
+      border-color: #287d3c;
+      color: #287d3c; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+@keyframes RowOverlayGridFadeIn {
+  to {
+    opacity: 1; } }
+
+.page-editor__row-overlay-grid {
+  position: relative; }
+  .page-editor__row-overlay-grid:before {
+    animation: RowOverlayGridFadeIn ease 0.3s;
+    animation-fill-mode: forwards;
+    background: repeating-linear-gradient(to right, #fff, #fff 12px, rgba(255, 95, 95, 0.08) 12px, rgba(255, 95, 95, 0.08) 13px, #fff 13px, #fff 24px, rgba(255, 95, 95, 0.04) 24px, rgba(255, 95, 95, 0.04) 8.33%);
+    background-position: -24px 0;
+    background-size: calc(100% + 24px);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 12px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: calc(100% - 24px); }
+  .page-editor__row-overlay-grid.no-gutters:before {
+    background: repeating-linear-gradient(to right, rgba(255, 95, 95, 0.04), rgba(255, 95, 95, 0.04) 12px, rgba(255, 95, 95, 0.08) 12px, rgba(255, 95, 95, 0.08) 13px, rgba(255, 95, 95, 0.04) 13px, rgba(255, 95, 95, 0.04) 8.33%);
+    background-position: -11px 0;
+    background-size: calc(100% + 1px); }
+  .page-editor__row-overlay-grid__border:after {
+    animation: RowOverlayGridFadeIn ease 0.3s;
+    animation-fill-mode: forwards;
+    border-left: dashed #ff5f5f thin;
+    content: '';
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__fragment-content {
+  cursor: pointer; }
+  .page-editor__fragment-content--master .portlet-options {
+    display: none; }
+  .page-editor__fragment-content--portlet-topper-hidden .portlet > .portlet-topper .portlet-options {
+    display: none; }
+  .page-editor__fragment-content .portlet > .portlet-topper {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #89a7e0;
+    border-radius: 3px;
+    height: 100%;
+    min-height: 54px;
+    opacity: 0;
+    padding: 10px 20px 10px 10px;
+    pointer-events: none;
+    transform: translateY(0);
+    width: 100%;
+    z-index: 986; }
+  .page-editor__fragment-content .portlet.open > .portlet-topper {
+    opacity: 0;
+    transform: translateY(0); }
+  @media (min-width: 576px) {
+    .page-editor__fragment-content .portlet:hover > .portlet-topper, .page-editor__fragment-content .portlet.focus > .portlet-topper {
+      opacity: 0.9;
+      pointer-events: all;
+      transform: translateY(0); }
+      .page-editor__fragment-content .portlet:hover > .portlet-topper .portlet-topper-toolbar, .page-editor__fragment-content .portlet.focus > .portlet-topper .portlet-topper-toolbar {
+        position: absolute;
+        right: 5px; }
+        .page-editor__fragment-content .portlet:hover > .portlet-topper .portlet-topper-toolbar .lexicon-icon, .page-editor__fragment-content .portlet.focus > .portlet-topper .portlet-topper-toolbar .lexicon-icon {
+          fill: #0b5fff;
+          stroke: currentColor; } }
+  .page-editor__fragment-content .portlet-msg-info {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__undo-history.dropdown-menu {
+  max-height: 320px;
+  max-width: 280px;
+  width: 280px; }
+
+.page-editor__undo-history .dropdown-item {
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+  .page-editor__undo-history .dropdown-item span {
+    color: #a7a9bc;
+    font-size: 0.75rem;
+    margin-left: 1em; }
+
+.page-editor__undo-history__overlay {
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1001; }
+  body.has-control-menu .page-editor__undo-history__overlay {
+    height: calc(100vh - 48px);
+    top: 48px; }
+    @media (min-width: 1280px) {
+      body.has-control-menu .page-editor__undo-history__overlay {
+        height: calc(100vh - 56px);
+        top: 56px; } }
+
+.page-editor__button .loading-animation {
+  font-size: 0.9rem; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__collapse {
+  cursor: pointer; }
+  .page-editor__collapse .ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .page-editor__collapse .collapse-icon {
+    background: none;
+    border-color: #e7e7ed;
+    font-size: 0.75rem;
+    margin-bottom: 16px;
+    padding-left: 0;
+    text-align: left;
+    width: 100%; }
+  .page-editor__collapse .page-editor__collapse {
+    margin-left: 1rem; }
+    .page-editor__collapse .page-editor__collapse > .page-editor__collapse .page-editor__collapse-content {
+      margin-left: 1rem; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__color-palette .palette-container {
+  margin-bottom: 0.25rem; }
+
+.page-editor__color-palette .palette-item {
+  border: 5px solid transparent;
+  border-radius: 50%;
+  height: 30px;
+  transition: border-color ease 0.2s;
+  will-change: border-color; }
+  .page-editor__color-palette .palette-item-selected, .page-editor__color-palette .palette-item:hover {
+    border-color: #f1f2f5; }
+  .page-editor__color-palette .palette-item-inner {
+    border: none;
+    height: 20px;
+    overflow: hidden;
+    width: 20px; }
+    .page-editor__color-palette .palette-item-inner.bg-white {
+      box-shadow: inset 0 0 0 1px #cdced9; }
+
+.page-editor__color-palette .palette-items-container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.form-group-sm .input-group > .input-group-item > .input-group-text.page-editor__ColorPicker__input-group-text--rounded-left {
+  border-radius: 0.25rem 0 0 0.25rem; }
+
+.page-editor__editor p {
+  margin-bottom: 0; }
+
+.page-editor__image-selector__image-input {
+  cursor: pointer; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+@keyframes inlineConfirmShow {
+  to {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.page-editor__inline-confirm {
+  align-items: center;
+  animation: inlineConfirmShow ease 0.3s;
+  animation-fill-mode: forwards;
+  background: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  left: 0;
+  opacity: 0;
+  padding-top: 20%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-1em); }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__item-selector__content-input {
+  cursor: pointer; }
+
+.page-editor__item-selector__content-button.btn {
+  border-color: #e7e7ed;
+  display: block;
+  min-width: 2rem;
+  padding-top: 1px; }
+
+.page-editor__sidebar__panel-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  margin-top: 16px; }
+  .page-editor__sidebar__panel-header.light {
+    font-size: 14px;
+    margin-bottom: 24px; }
+
+.page-editor__textarea,
+.form-group-sm .form-control.page-editor__textarea {
+  height: 5rem;
+  transition: height ease 0.3s;
+  will-change: height; }
+  .page-editor__textarea--empty:not(:focus),
+  .form-group-sm .form-control.page-editor__textarea--empty:not(:focus) {
+    height: 2.5rem;
+    transition-delay: 0.3s; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+@keyframes FragmentCommentDecrease {
+  from {
+    max-height: 100vh; }
+  to {
+    max-height: 0;
+    min-height: 0;
+    padding-top: 0;
+    transform: scaleY(0.9) translateY(-10%); } }
+
+@keyframes FragmentCommentFadeOut {
+  to {
+    opacity: 0; } }
+
+@keyframes FragmentCommentResolveMaskFadeIn {
+  to {
+    opacity: 1; } }
+
+.page-editor__fragment-comment {
+  min-height: 4.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  position: relative;
+  transition: min-height ease 0.3s;
+  will-change: min-height; }
+  .page-editor__fragment-comment--hidden {
+    animation: FragmentCommentDecrease ease 0.4s, FragmentCommentFadeOut ease 0.3s;
+    animation-fill-mode: forwards;
+    overflow: hidden; }
+    .page-editor__fragment-comment--hidden.page-editor__fragment-comment--with-resolve-mask {
+      animation-delay: 0.5s; }
+  .page-editor__fragment-comment--highlighted {
+    background-color: #f0f5ff; }
+  .page-editor__fragment-comment--reply {
+    padding-left: 1rem;
+    padding-right: 0;
+    padding-top: 0.5rem; }
+  .page-editor__fragment-comment + .page-editor__fragment-comment:not(.page-editor__fragment-comment--reply) {
+    border-top: solid thin #cdced9; }
+  .page-editor__fragment-comment--resolved {
+    background-color: #edf9f0; }
+  .page-editor__fragment-comment--with-delete-mask {
+    min-height: 10rem; }
+  .page-editor__fragment-comment--with-resolve-mask .resolve-mask {
+    align-items: center;
+    animation: FragmentCommentResolveMaskFadeIn ease 0.3s;
+    animation-fill-mode: forwards;
+    background: #edf9f0;
+    bottom: 0;
+    color: #287d3c;
+    display: flex;
+    font-size: 48px;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .page-editor__fragment-comment > form {
+    margin-bottom: 1rem; }
+  .page-editor__fragment-comment-replies {
+    border-left: solid 2px #cdced9;
+    margin-left: 0.35rem; }
+  .page-editor__fragment-comment + .page-editor__fragment-comment:not(.page-editor__fragment-comment--reply) {
+    border-top: solid thin #cdced9; }
+  .page-editor__fragment-comment .content {
+    hyphens: auto;
+    overflow-wrap: break-word; }
+    .page-editor__fragment-comment .content p {
+      margin-bottom: 0; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__contents__page-content {
+  border-top: solid thin #cdced9; }
+  .page-editor__contents__page-content--mapped-item-hovered {
+    background-color: rgba(175, 120, 255, 0.1);
+    transition: background-color ease 0.3s; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__toolbar-experience {
+  align-items: center;
+  display: flex;
+  position: relative; }
+  .page-editor__toolbar-experience > button {
+    display: inline-block;
+    max-width: 100%;
+    width: 12em; }
+
+.page-editor__toolbar-experience__dropdown-menu.toggled {
+  display: block;
+  left: 0;
+  max-width: 100vw;
+  position: absolute;
+  top: 0;
+  width: 808px;
+  z-index: 1051; }
+  .page-editor__toolbar-experience__dropdown-menu.toggled li.dropdown-menu__experience {
+    cursor: pointer; }
+    .page-editor__toolbar-experience__dropdown-menu.toggled li.dropdown-menu__experience.dropdown-menu__experience--active, .page-editor__toolbar-experience__dropdown-menu.toggled li.dropdown-menu__experience:focus {
+      background-color: #f0f5ff;
+      border: 1px solid #80acff; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__sidebar__fragments-widgets-panel .form-control-sm {
+  padding-left: 12px;
+  padding-right: 12px; }
+
+.page-editor__sidebar__fragments-widgets-panel .sheet-subtitle {
+  color: #6b6c7e;
+  line-height: unset; }
+
+.page-editor__sidebar__fragments-widgets-panel .collapse-icon {
+  border: 0;
+  font-size: 0.7rem;
+  height: 2rem;
+  margin-bottom: 4px; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__fragments-widgets__search-results-panel__filter-subtitle {
+  color: #272833;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  text-transform: uppercase; }
+  .page-editor__fragments-widgets__search-results-panel__filter-subtitle ~ .page-editor__collapse {
+    margin-left: 12px; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__fragments-widgets__tab-item {
+  align-items: center;
+  border-radius: 4px;
+  color: #30313f;
+  cursor: grab;
+  display: flex;
+  height: 32px;
+  margin-bottom: 4px;
+  padding: 0 4px 0 12px; }
+  .page-editor__fragments-widgets__tab-item:hover {
+    background-color: #f7f8f9; }
+    .page-editor__fragments-widgets__tab-item:hover .preview-icon {
+      opacity: 1; }
+  .page-editor__fragments-widgets__tab-item.disabled {
+    color: #a7a9bc;
+    cursor: default; }
+    .page-editor__fragments-widgets__tab-item.disabled:hover {
+      background-color: transparent; }
+  .page-editor__fragments-widgets__tab-item .preview-icon {
+    font-size: 14px;
+    opacity: 0; }
+    .page-editor__fragments-widgets__tab-item .preview-icon .lexicon-icon {
+      fill: #a7a9bc; }
+    .page-editor__fragments-widgets__tab-item .preview-icon:focus {
+      opacity: 1; }
+  .page-editor__fragments-widgets__tab-item-body {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    width: calc(100% - 24px); }
+    .page-editor__fragments-widgets__tab-item-body .lexicon-icon {
+      transform: translateY(1px); }
+    .page-editor__fragments-widgets__tab-item-body .title {
+      font-size: 12px;
+      font-weight: 600; }
+  .page-editor__fragments-widgets__tab-item-preview {
+    position: relative; }
+    .page-editor__fragments-widgets__tab-item-preview .popover {
+      border-radius: 4px;
+      bottom: 40px;
+      display: block;
+      left: auto;
+      right: -4px;
+      top: auto;
+      width: 208px; }
+      .page-editor__fragments-widgets__tab-item-preview .popover .arrow {
+        display: none; }
+      .page-editor__fragments-widgets__tab-item-preview .popover img {
+        border: 1px solid #e7e7ed;
+        border-radius: 4px;
+        width: 100%; }
+      .page-editor__fragments-widgets__tab-item-preview .popover .popover-body {
+        padding: 8px; }
+
+.page-editor__fragments-widgets__tab-portlet-item {
+  margin-left: 16px; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__sidebar__fragments-widgets-panel__tabs {
+  border-bottom: 1px solid #e7e7ed;
+  font-size: 12px;
+  margin-bottom: 12px; }
+  .page-editor__sidebar__fragments-widgets-panel__tabs .nav-link:not(.active) {
+    color: #6b6c7e; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__sidebar__page-design-options__tabs {
+  border-bottom: 1px solid #e7e7ed;
+  font-size: 0.75rem; }
+  .page-editor__sidebar__page-design-options__tabs .nav-link:not(.active) {
+    color: #6b6c7e; }
+
+.page-editor__sidebar__design-options__tab-card--active .card {
+  box-shadow: 0 0 0 2px #80acff;
+  cursor: pointer; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__container-styles-panel__label {
+  border-top: 1px solid #e7e7ed;
+  color: #6b6c7e;
+  font-size: 0.75rem;
+  font-weight: 600; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__sidebar__fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .page-editor__sidebar__fieldset__field {
+    margin-bottom: 8px;
+    width: 100%; }
+    .page-editor__sidebar__fieldset__field-small {
+      width: calc(50% - 4px); }
+  .page-editor__sidebar__fieldset-label {
+    color: #6b6c7e;
+    font-size: 0.75rem;
+    font-weight: 600; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__mapping-panel__helper, .page-editor__mapping-panel__type-label {
+  font-size: 12px; }
+  .page-editor__mapping-panel__helper span, .page-editor__mapping-panel__type-label span {
+    font-weight: 600; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__row-styles-panel__viewport-label {
+  background: #f7f8f9;
+  color: #6b6c7e;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: -16px -16px 12px;
+  padding: 8px 16px; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__sidebar .page-editor__page-structure__item-configuration {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden; }
+  .page-editor__sidebar .page-editor__page-structure__item-configuration .tab-content {
+    overflow: auto; }
+  .page-editor__sidebar .page-editor__page-structure__item-configuration-tab {
+    font-size: 0.75rem; }
+  .page-editor__sidebar .page-editor__page-structure__item-configuration label {
+    font-size: 12px; }
+  .page-editor__sidebar .page-editor__page-structure__item-configuration .btn,
+  .page-editor__sidebar .page-editor__page-structure__item-configuration .btn-group,
+  .page-editor__sidebar .page-editor__page-structure__item-configuration .form-group,
+  .page-editor__sidebar .page-editor__page-structure__item-configuration .form-group-autofit {
+    margin-bottom: 16px; }
+    .page-editor__sidebar .page-editor__page-structure__item-configuration .btn:last-child,
+    .page-editor__sidebar .page-editor__page-structure__item-configuration .btn-group:last-child,
+    .page-editor__sidebar .page-editor__page-structure__item-configuration .form-group:last-child,
+    .page-editor__sidebar .page-editor__page-structure__item-configuration .form-group-autofit:last-child {
+      margin: 0; }
+
+.page-editor__page-structure {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  .page-editor__page-structure__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__page-structure__section {
+  flex-basis: 0;
+  flex-grow: 1;
+  overflow: auto; }
+  .page-editor__page-structure__section.resized {
+    flex-basis: auto;
+    flex-shrink: 0; }
+  .page-editor__page-structure__section ~ .page-editor__page-structure__section {
+    border-top: solid #e7e7ed thin; }
+  .page-editor__page-structure__section__custom-styles {
+    border-bottom: 1px solid #e7e7ed;
+    margin-bottom: 8px;
+    padding-bottom: 16px; }
+  .page-editor__page-structure__section__resize-handler {
+    cursor: row-resize;
+    height: 10px; }
+    .page-editor__page-structure__section__resize-handler:hover {
+      background: #e7e7ed; }
+    .page-editor__page-structure__section__resize-handler.active {
+      background: #cdced9; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__page-structure__structure-tree {
+  padding: 0 16px; }
+  .page-editor__page-structure__structure-tree .lfr-treeview-node-list {
+    border-left: none; }
+    .page-editor__page-structure__structure-tree .lfr-treeview-node-list .lfr-treeview-node-list {
+      border-left: none;
+      margin-left: 18px; }
+    .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item {
+      display: flex;
+      outline: none;
+      padding: 0; }
+      .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item, .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item:not(:first-child) {
+        margin: 2px 0 0; }
+      .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item__button {
+        background-color: transparent;
+        cursor: pointer;
+        margin: 0;
+        position: static; }
+        .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item__button:focus {
+          border-radius: 4px;
+          box-shadow: inset 0 0 0 1px #80acff; }
+        .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item__button:focus .lfr-treeview-node-list-item__button-icon {
+          box-shadow: none; }
+        .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item__button-icon {
+          background-color: transparent;
+          color: #6b6c7e;
+          height: 16px;
+          padding: 5px 4px 4px;
+          width: 16px; }
+          .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item__button-icon:hover {
+            color: #272833; }
+      .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item__node {
+        flex-grow: 1; }
+        .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item__node:first-child {
+          padding-left: 16px; }
+      .page-editor__page-structure__structure-tree .lfr-treeview-node-list-item__children {
+        padding-left: 8px !important; }
+
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.page-editor__page-structure__tree-node {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  padding: 6px 8px;
+  position: relative;
+  white-space: nowrap; }
+  .page-editor__page-structure__tree-node[aria-disabled='true'] {
+    cursor: not-allowed; }
+    .page-editor__page-structure__tree-node[aria-disabled='true'] > div {
+      pointer-events: none; }
+  .page-editor__page-structure__tree-node.drag-over-bottom {
+    box-shadow: 0 1px 0 0 #80acff; }
+  .page-editor__page-structure__tree-node.drag-over-top {
+    box-shadow: 0 -1px 0 0 #80acff; }
+  .page-editor__page-structure__tree-node.drag-over-middle {
+    background-color: #f0f5ff;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #80acff; }
+  .page-editor__page-structure__tree-node.dragged {
+    opacity: 0.5; }
+  .page-editor__page-structure__tree-node__mask {
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+    .page-editor__page-structure__tree-node__mask:active, .page-editor__page-structure__tree-node__mask:focus {
+      box-shadow: none; }
+  .page-editor__page-structure__tree-node--activable {
+    font-weight: 600; }
+  .page-editor__page-structure__tree-node--active, .page-editor__page-structure__tree-node--hovered {
+    background-color: #f0f5ff;
+    border-radius: 4px; }
+  .page-editor__page-structure__tree-node--active {
+    box-shadow: inset 0 0 0 1px #80acff; }
+  .page-editor__page-structure__tree-node__name {
+    color: #272833;
+    margin-left: 4px; }
+    .page-editor__page-structure__tree-node__name .lexicon-icon {
+      margin-right: 8px; }
+    .page-editor__page-structure__tree-node__name--disabled {
+      cursor: not-allowed;
+      opacity: 0.4; }
+  .page-editor__page-structure__tree-node__remove-button {
+    color: #6b6c7e;
+    margin-left: 8px;
+    opacity: 0;
+    transform: translateY(1px); }
+    .page-editor__page-structure__tree-node__remove-button--visible {
+      opacity: 1; }

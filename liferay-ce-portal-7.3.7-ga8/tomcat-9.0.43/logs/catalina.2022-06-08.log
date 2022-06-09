@@ -1,0 +1,8 @@
+08-Jun-2022 10:51:24.900 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1399] milliseconds
+08-Jun-2022 10:53:51.249 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [146334] milliseconds
+08-Jun-2022 11:31:11.328 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1304] milliseconds
+08-Jun-2022 11:35:35.105 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [263767] milliseconds
+08-Jun-2022 11:59:13.592 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1182] milliseconds
+08-Jun-2022 12:01:17.167 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [123566] milliseconds
+08-Jun-2022 16:28:22.417 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1256] milliseconds
+08-Jun-2022 16:32:30.153 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [247727] milliseconds

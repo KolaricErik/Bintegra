@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.portlet-journal .article-content-content, .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description {
+  word-wrap: break-word; }
+  .portlet-journal .article-content-content img, .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description img,
+  .portlet-journal .article-content-content .cke_widget_image,
+  .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .cke_widget_image {
+    max-width: 100%; }
+    .portlet-journal .article-content-content img[style*='float: left;'], .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description img[style*='float: left;'], .portlet-journal .article-content-content img[style*='float:left;'], .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description img[style*='float:left;'],
+    .portlet-journal .article-content-content .cke_widget_image[style*='float: left;'],
+    .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .cke_widget_image[style*='float: left;'],
+    .portlet-journal .article-content-content .cke_widget_image[style*='float:left;'],
+    .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .cke_widget_image[style*='float:left;'] {
+      margin-right: 24px; }
+    .portlet-journal .article-content-content img[style*='float: right;'], .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description img[style*='float: right;'], .portlet-journal .article-content-content img[style*='float:right;'], .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description img[style*='float:right;'],
+    .portlet-journal .article-content-content .cke_widget_image[style*='float: right;'],
+    .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .cke_widget_image[style*='float: right;'],
+    .portlet-journal .article-content-content .cke_widget_image[style*='float:right;'],
+    .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .cke_widget_image[style*='float:right;'] {
+      margin-left: 24px; }
+    .portlet-journal .article-content-content img[style*='float: left;'], .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description img[style*='float: left;'], .portlet-journal .article-content-content img[style*='float:left;'], .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description img[style*='float:left;'], .portlet-journal .article-content-content img[style*='float: right;'], .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description img[style*='float: right;'], .portlet-journal .article-content-content img[style*='float:right;'], .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description img[style*='float:right;'],
+    .portlet-journal .article-content-content .cke_widget_image[style*='float: left;'],
+    .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .cke_widget_image[style*='float: left;'],
+    .portlet-journal .article-content-content .cke_widget_image[style*='float:left;'],
+    .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .cke_widget_image[style*='float:left;'],
+    .portlet-journal .article-content-content .cke_widget_image[style*='float: right;'],
+    .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .cke_widget_image[style*='float: right;'],
+    .portlet-journal .article-content-content .cke_widget_image[style*='float:right;'],
+    .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .cke_widget_image[style*='float:right;'] {
+      margin-bottom: 24px;
+      margin-top: 24px; }
+  .portlet-journal .article-content-content .alloy-editor-container .alloy-editor-wrapper, .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .alloy-editor-container .alloy-editor-wrapper {
+    padding-top: 0; }
+  .portlet-journal .article-content-content .alloy-editor-switch, .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .alloy-editor-switch {
+    margin-top: -40px; }
+  .portlet-journal .article-content-content .CodeMirror, .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .CodeMirror {
+    height: 100%; }
+  .portlet-journal .article-content-content .form-builder-field, .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .form-builder-field {
+    box-shadow: none;
+    margin: 0;
+    padding-bottom: 0;
+    padding-right: 0; }
+  .portlet-journal .article-content-content .input-localized.input-localized-editor .form-control, .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .input-localized.input-localized-editor .form-control {
+    border-width: 1px;
+    min-height: 2.5rem;
+    padding: 0.5rem 1rem; }
+  .portlet-journal .article-content-content .input-localized-content, .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .input-localized-content {
+    margin-bottom: 24px; }
+  .portlet-journal .article-content-content .lfr-ddm-field-group, .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .lfr-ddm-field-group {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 28px 24px; }
+  .portlet-journal .article-content-content .lfr-ddm-container > .lfr-ddm-field-group, .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .lfr-ddm-container > .lfr-ddm-field-group {
+    padding: 0; }
+
+.portlet-journal .edit-article-form .component-tbar.tbar-article {
+  height: auto;
+  left: 0;
+  min-height: 3.5rem;
+  position: fixed;
+  transition: left ease 0.5s, width ease 0.5s;
+  width: 100%;
+  z-index: 971; }
+  body.open .portlet-journal .edit-article-form .component-tbar.tbar-article {
+    left: 320px;
+    width: calc(100% - 320px); }
+    @media (max-width: 768px) {
+      body.open .portlet-journal .edit-article-form .component-tbar.tbar-article {
+        left: 0;
+        width: 100%; } }
+  .portlet-journal .edit-article-form .component-tbar.tbar-article > .container-fluid {
+    padding: 0; }
+    .portlet-journal .edit-article-form .component-tbar.tbar-article > .container-fluid > .tbar-nav {
+      flex-wrap: wrap; }
+      @media (min-width: 992px) {
+        .portlet-journal .edit-article-form .component-tbar.tbar-article > .container-fluid > .tbar-nav {
+          flex-wrap: nowrap; } }
+      .portlet-journal .edit-article-form .component-tbar.tbar-article > .container-fluid > .tbar-nav > .tbar-item {
+        padding: 0.5em; }
+      .portlet-journal .edit-article-form .component-tbar.tbar-article > .container-fluid > .tbar-nav > .tbar-item:first-child {
+        border-top: solid thin #e7e7ed;
+        order: 1;
+        width: 100%; }
+      .portlet-journal .edit-article-form .component-tbar.tbar-article > .container-fluid > .tbar-nav > .tbar-item:last-child {
+        flex-grow: 1;
+        padding-right: 1em; }
+        .portlet-journal .edit-article-form .component-tbar.tbar-article > .container-fluid > .tbar-nav > .tbar-item:last-child > .tbar-section {
+          display: flex;
+          justify-content: flex-end; }
+  .portlet-journal .edit-article-form .component-tbar.tbar-article .form-text {
+    display: none; }
+  .portlet-journal .edit-article-form .component-tbar.tbar-article .input-localized {
+    flex-direction: row-reverse; }
+    .portlet-journal .edit-article-form .component-tbar.tbar-article .input-localized .form-validator-stack {
+      display: none; }
+    .portlet-journal .edit-article-form .component-tbar.tbar-article .input-localized .input-group-item {
+      order: 2; }
+    .portlet-journal .edit-article-form .component-tbar.tbar-article .input-localized .input-localized-content {
+      order: 1;
+      padding-right: 0.5rem; }
+  .portlet-journal .edit-article-form .component-tbar.tbar-article .journal-article-button-row .btn-cancel {
+    border: 0; }
+  @media (min-width: 992px) {
+    .portlet-journal .edit-article-form .component-tbar.tbar-article {
+      min-height: 4rem; }
+      .portlet-journal .edit-article-form .component-tbar.tbar-article > .container-fluid > .tbar-nav > .tbar-item:first-child {
+        border-top: none;
+        order: 0;
+        width: auto; }
+      .portlet-journal .edit-article-form .component-tbar.tbar-article > .container-fluid > .tbar-nav > .tbar-item:last-child {
+        flex-grow: 0; }
+      .portlet-journal .edit-article-form .component-tbar.tbar-article .input-localized {
+        flex-direction: row; } }
+
+.portlet-journal .edit-article-form .contextual-sidebar-content {
+  margin-top: 6.875rem; }
+  @media (min-width: 992px) {
+    .portlet-journal .edit-article-form .contextual-sidebar-content {
+      margin-top: 4rem; } }
+  .portlet-journal .edit-article-form .contextual-sidebar-content > .container-fluid {
+    max-height: calc( 100vh - 91px - 6.875rem);
+    overflow: auto; }
+    @media (min-width: 992px) {
+      .portlet-journal .edit-article-form .contextual-sidebar-content > .container-fluid {
+        max-height: calc( 100vh - 91px - 4rem); } }
+    @media (max-width: 991.98px) {
+      .portlet-journal .edit-article-form .contextual-sidebar-content > .container-fluid {
+        margin: 0 auto;
+        padding: 0; }
+        .portlet-journal .edit-article-form .contextual-sidebar-content > .container-fluid > .sheet {
+          border: none;
+          border-radius: 0; } }
+  @media (max-width: 1279.98px) {
+    .portlet-journal .edit-article-form .contextual-sidebar-content .sidebar-body {
+      height: calc( 100vh - 160px - 6.875rem); } }
+
+.portlet-journal .edit-article-form .edit-article-sidebar {
+  border-left: 1px #e7e7ed solid;
+  box-shadow: none;
+  margin-top: 6.875rem;
+  max-width: 90vw;
+  overflow-y: scroll;
+  padding-top: 0;
+  position: fixed;
+  top: auto;
+  width: 320px;
+  z-index: 1; }
+  @media (min-width: 992px) {
+    .portlet-journal .edit-article-form .edit-article-sidebar {
+      margin-top: 4rem; } }
+  .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .language-value,
+  .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .input-localized-content {
+    margin-bottom: 0; }
+  .portlet-journal .edit-article-form .edit-article-sidebar .article-content-description .alloy-editor-switch {
+    display: none; }
+  .portlet-journal .edit-article-form .edit-article-sidebar .schedule .form-group-autofit {
+    margin-bottom: 16px; }
+  .portlet-journal .edit-article-form .edit-article-sidebar .schedule .expiration-date .form-group-autofit,
+  .portlet-journal .edit-article-form .edit-article-sidebar .schedule .review-date .form-group-autofit {
+    margin-bottom: 8px; }
+
+.portlet-journal .edit-article-form .sidebar-body .panel {
+  margin-bottom: 0; }
+
+.portlet-journal .edit-article-form .sidebar-body .panel-body {
+  margin-bottom: 16px;
+  padding: 0; }
+  .portlet-journal .edit-article-form .sidebar-body .panel-body .article-default-language {
+    margin-bottom: 1rem; }
+
+.portlet-journal .check-circle-center .green {
+  color: #008000; }
+
+.portlet-journal .import-translation nav,
+.portlet-journal .translate-article nav {
+  height: auto;
+  left: 0;
+  position: fixed;
+  transition: left ease 0.5s, width ease 0.5s;
+  width: 100%;
+  z-index: 971; }
+  body.open .portlet-journal .import-translation nav, body.open
+  .portlet-journal .translate-article nav {
+    left: 320px;
+    width: calc(100% - 320px); }
+    @media (max-width: 768px) {
+      body.open .portlet-journal .import-translation nav, body.open
+      .portlet-journal .translate-article nav {
+        left: 0;
+        width: 100%; } }
+  .portlet-journal .import-translation nav > .container-fluid,
+  .portlet-journal .translate-article nav > .container-fluid {
+    padding: 0; }
+    .portlet-journal .import-translation nav > .container-fluid > .tbar-nav,
+    .portlet-journal .translate-article nav > .container-fluid > .tbar-nav {
+      flex-wrap: wrap; }
+      .portlet-journal .import-translation nav > .container-fluid > .tbar-nav > .tbar-item,
+      .portlet-journal .translate-article nav > .container-fluid > .tbar-nav > .tbar-item {
+        padding: 0.5em 0.75em; }
+      .portlet-journal .import-translation nav > .container-fluid > .tbar-nav > .tbar-item:first-child,
+      .portlet-journal .translate-article nav > .container-fluid > .tbar-nav > .tbar-item:first-child {
+        border-top: solid thin #e7e7ed;
+        order: 1;
+        width: 100%; }
+      .portlet-journal .import-translation nav > .container-fluid > .tbar-nav > .tbar-item:last-child,
+      .portlet-journal .translate-article nav > .container-fluid > .tbar-nav > .tbar-item:last-child {
+        flex-grow: 1; }
+        .portlet-journal .import-translation nav > .container-fluid > .tbar-nav > .tbar-item:last-child > .tbar-section,
+        .portlet-journal .translate-article nav > .container-fluid > .tbar-nav > .tbar-item:last-child > .tbar-section {
+          display: flex;
+          justify-content: flex-end; }
+  @media (min-width: 992px) {
+    .portlet-journal .import-translation nav > .container-fluid > .tbar-nav > .tbar-item:first-child,
+    .portlet-journal .translate-article nav > .container-fluid > .tbar-nav > .tbar-item:first-child {
+      border-top: none;
+      order: 0;
+      width: auto; }
+    .portlet-journal .import-translation nav > .container-fluid > .tbar-nav > .tbar-item:last-child,
+    .portlet-journal .translate-article nav > .container-fluid > .tbar-nav > .tbar-item:last-child {
+      flex-grow: 0; } }
+
+.portlet-journal .import-translation .import-body-form,
+.portlet-journal .import-translation .translate-body-form,
+.portlet-journal .translate-article .import-body-form,
+.portlet-journal .translate-article .translate-body-form {
+  margin-top: 6.875rem; }
+  @media (min-width: 992px) {
+    .portlet-journal .import-translation .import-body-form,
+    .portlet-journal .import-translation .translate-body-form,
+    .portlet-journal .translate-article .import-body-form,
+    .portlet-journal .translate-article .translate-body-form {
+      margin-top: 4rem; } }
+
+.portlet-journal .translate-article .languages-selector .autofit-col {
+  margin-right: 1em; }
+
+.portlet-journal .translate-article .translate-body-form {
+  background-color: #fff;
+  padding: 1.5rem; }
+  .portlet-journal .translate-article .translate-body-form .translate-editor-preview {
+    border: 1px solid #e7e7ed;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 22.375rem;
+    overflow: auto;
+    padding: 0.75rem 1rem 0.5rem; }
+    .portlet-journal .translate-article .translate-body-form .translate-editor-preview img {
+      max-width: 100%; }
+  .portlet-journal .translate-article .translate-body-form .fieldset-title {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin: 1.5em 0;
+    text-transform: uppercase; }
+  .portlet-journal .translate-article .translate-body-form .form-control[readonly] {
+    background-color: #fff; }
+  .portlet-journal .translate-article .translate-body-form .separator {
+    border-color: #6b6c7e;
+    margin-bottom: 2rem;
+    margin-top: 0.25rem; }

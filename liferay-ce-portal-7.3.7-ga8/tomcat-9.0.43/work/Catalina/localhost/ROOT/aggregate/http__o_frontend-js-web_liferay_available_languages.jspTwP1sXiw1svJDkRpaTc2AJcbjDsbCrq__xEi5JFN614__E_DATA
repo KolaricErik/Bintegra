@@ -1,0 +1,95 @@
+/*1623110530000*/
+
+
+
+
+
+
+
+
+
+
+
+
+AUI.add(
+	'portal-available-languages',
+	function(A) {
+		var available = {};
+
+		var direction = {};
+
+		
+
+			available['en_US'] = 'English\x20\x28United\x20States\x29';
+			direction['en_US'] = 'ltr';
+
+		
+
+			available['ar_SA'] = 'Arabic\x20\x28Saudi\x20Arabia\x29';
+			direction['ar_SA'] = 'rtl';
+
+		
+
+			available['ca_ES'] = 'Catalan\x20\x28Spain\x29';
+			direction['ca_ES'] = 'ltr';
+
+		
+
+			available['zh_CN'] = 'Chinese\x20\x28China\x29';
+			direction['zh_CN'] = 'ltr';
+
+		
+
+			available['nl_NL'] = 'Dutch\x20\x28Netherlands\x29';
+			direction['nl_NL'] = 'ltr';
+
+		
+
+			available['fi_FI'] = 'Finnish\x20\x28Finland\x29';
+			direction['fi_FI'] = 'ltr';
+
+		
+
+			available['fr_FR'] = 'French\x20\x28France\x29';
+			direction['fr_FR'] = 'ltr';
+
+		
+
+			available['de_DE'] = 'German\x20\x28Germany\x29';
+			direction['de_DE'] = 'ltr';
+
+		
+
+			available['hu_HU'] = 'Hungarian\x20\x28Hungary\x29';
+			direction['hu_HU'] = 'ltr';
+
+		
+
+			available['ja_JP'] = 'Japanese\x20\x28Japan\x29';
+			direction['ja_JP'] = 'ltr';
+
+		
+
+			available['pt_BR'] = 'Portuguese\x20\x28Brazil\x29';
+			direction['pt_BR'] = 'ltr';
+
+		
+
+			available['es_ES'] = 'Spanish\x20\x28Spain\x29';
+			direction['es_ES'] = 'ltr';
+
+		
+
+			available['sv_SE'] = 'Swedish\x20\x28Sweden\x29';
+			direction['sv_SE'] = 'ltr';
+
+		
+
+		Liferay.Language.available = available;
+		Liferay.Language.direction = direction;
+	},
+	'',
+	{
+		requires: []
+	}
+);
