@@ -1,0 +1,5 @@
+<log4j:event logger="com.liferay.portal.spring.context.PortalContextLoaderListener" timestamp="1653736992751" level="INFO" thread="main">
+<log4j:message><![CDATA[JVM arguments: -Dcatalina.base=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dcatalina.home=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dfile.encoding=UTF8 -Djava.io.tmpdir=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m -javaagent:C:\Programske datoteke\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=65053:C:\Programske datoteke\JetBrains\IntelliJ IDEA 2021.3.2\bin]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.SanitizerLogWrapper" method="info" file="SanitizerLogWrapper.java" line="139"/>
+</log4j:event>
+

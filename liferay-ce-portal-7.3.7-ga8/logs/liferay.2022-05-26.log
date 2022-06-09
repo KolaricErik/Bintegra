@@ -1,0 +1,183 @@
+2022-05-26 12:37:46.967 INFO  [main][PortalContextLoaderListener:139] JVM arguments: -Djava.util.logging.config.file=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dcatalina.home=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Djava.io.tmpdir=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\temp
+2022-05-26 12:39:03.276 WARN  [main][DialectDetector:99] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2022-05-26 12:39:03.279 INFO  [main][DialectDetector:159] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3
+2022-05-26 12:39:07.180 INFO  [main][ModuleFrameworkImpl:1602] Starting initial bundles
+2022-05-26 12:39:12.438 INFO  [main][ModuleFrameworkImpl:1896] Started initial bundles
+2022-05-26 12:39:12.443 INFO  [main][ModuleFrameworkImpl:1949] Starting dynamic bundles
+2022-05-26 12:39:35.873 INFO  [main][ModuleFrameworkImpl:1971] Started dynamic bundles
+2022-05-26 12:39:35.876 INFO  [main][ModuleFrameworkImpl:1978] Starting web bundles
+2022-05-26 12:39:40.016 INFO  [main][ModuleFrameworkImpl:2032] Started web bundles
+2022-05-26 12:39:40.018 INFO  [main][ModuleFrameworkImpl:408] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-05-26 12:39:45.457 WARN  [main][SidecarManager:111] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-05-26 12:40:00.428 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-05-26 12:40:05.535 INFO  [main][StartupHelperUtil:109] There are no patches installed
+2022-05-26 12:40:05.867 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-05-26 12:40:05.877 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 10 ms
+2022-05-26 12:40:06.701 INFO  [main][AutoDeployDir:206] Auto deploy scanner started for C:\liferay\liferay-ce-portal-7.3.7-ga8\deploy
+2022-05-26 12:40:10.780 INFO  [main][SystemCheckOSGiCommands:59] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-05-26 12:40:22.946 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-05-26 12:40:23.470 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-05-26 12:40:23.695 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-05-26 12:40:24.008 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-05-26 12:40:57.346 ERROR [http-nio-8080-exec-2][VirtualHostFilter:367] org.apache.catalina.connector.ClientAbortException: java.io.IOException: An established connection was aborted by the software in your host machine
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: An established connection was aborted by the software in your host machine
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.appendByteArray(OutputBuffer.java:746)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:675)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at com.liferay.portal.kernel.internal.servlet.RestrictedByteArrayCacheOutputStream.flush(RestrictedByteArrayCacheOutputStream.java:66)
+	at com.liferay.portal.kernel.servlet.RestrictedByteBufferCacheServletResponse.flushCache(RestrictedByteBufferCacheServletResponse.java:46)
+	at com.liferay.portal.servlet.filters.etag.ETagFilter._postProcessETag(ETagFilter.java:122)
+	at com.liferay.portal.servlet.filters.etag.ETagFilter.processFilter(ETagFilter.java:102)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:265)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:147)
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:183)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:710)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:457)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:364)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176)
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389)
+	at com.liferay.portal.servlet.filters.urlrewrite.UrlRewriteFilter.processFilter(UrlRewriteFilter.java:65)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:49)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:215)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:175)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:175)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:196)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:99)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:104)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1344)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:584)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:528)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:546)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.doWrite(IdentityOutputFilter.java:73)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:193)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 70 more
+2022-05-26 12:41:38.414 WARN  [liferay/mail-3][MailMessageListener:135] Email test@domain.invalid will be ignored because it is included in mail.send.blacklist
+2022-05-26 12:41:38.415 WARN  [liferay/mail-3][MailMessageListener:52] Skipping email because the sender is not specified
+2022-05-26 12:43:36.533 INFO  [main][PortalContextLoaderListener:139] JVM arguments: -Dcatalina.base=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dcatalina.home=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dfile.encoding=UTF8 -Djava.io.tmpdir=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m -javaagent:C:\Programske datoteke\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=53296:C:\Programske datoteke\JetBrains\IntelliJ IDEA 2021.3.2\bin
+2022-05-26 12:43:39.994 WARN  [main][DialectDetector:99] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2022-05-26 12:43:39.994 INFO  [main][DialectDetector:159] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3
+2022-05-26 12:43:43.411 INFO  [main][ModuleFrameworkImpl:1602] Starting initial bundles
+2022-05-26 12:43:46.391 INFO  [main][ModuleFrameworkImpl:1896] Started initial bundles
+2022-05-26 12:43:46.392 INFO  [main][ModuleFrameworkImpl:1949] Starting dynamic bundles
+2022-05-26 12:43:59.717 INFO  [main][ModuleFrameworkImpl:1971] Started dynamic bundles
+2022-05-26 12:43:59.724 INFO  [main][ModuleFrameworkImpl:1978] Starting web bundles
+2022-05-26 12:44:05.214 INFO  [main][ModuleFrameworkImpl:2032] Started web bundles
+2022-05-26 12:44:05.214 INFO  [main][ModuleFrameworkImpl:408] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-05-26 12:44:05.820 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-05-26 12:44:05.849 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 29 ms
+2022-05-26 12:44:16.910 WARN  [main][SidecarManager:111] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-05-26 12:44:36.184 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-05-26 12:45:13.505 INFO  [main][StartupHelperUtil:109] There are no patches installed
+2022-05-26 12:45:13.579 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-05-26 12:45:13.601 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 22 ms
+2022-05-26 12:45:14.199 INFO  [main][AutoDeployDir:206] Auto deploy scanner started for C:\liferay\liferay-ce-portal-7.3.7-ga8\deploy
+2022-05-26 12:45:15.684 INFO  [main][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-05-26 12:45:15.793 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-05-26 12:45:15.915 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-05-26 12:45:15.978 INFO  [main][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-05-26 12:45:16.748 INFO  [main][SystemCheckOSGiCommands:59] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-05-26 12:45:16.750 INFO  [main][SystemCheckOSGiCommands:71] Running system check
+2022-05-26 12:45:16.750 INFO  [main][SystemCheckOSGiCommands:98] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-05-26 12:45:16.751 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-05-26 12:45:21.471 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-05-26 12:45:21.472 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-05-26 12:45:48.773 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-05-26 12:45:48.774 INFO  [main][SystemCheckOSGiCommands:114] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-05-26 12:45:48.776 INFO  [main][SystemCheckOSGiCommands:126] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-05-26 12:49:34.484 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-05-26 12:49:40.040 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-05-26 12:56:28.672 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-05-26 12:56:28.693 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-05-26 12:56:28.702 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-05-26 12:56:28.710 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
+2022-05-26 12:57:10.943 INFO  [main][PortalContextLoaderListener:139] JVM arguments: -Djava.util.logging.config.file=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dcatalina.home=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Djava.io.tmpdir=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\temp
+2022-05-26 12:57:13.917 WARN  [main][DialectDetector:99] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2022-05-26 12:57:13.920 INFO  [main][DialectDetector:159] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3
+2022-05-26 12:57:17.421 INFO  [main][ModuleFrameworkImpl:1602] Starting initial bundles
+2022-05-26 12:57:19.772 INFO  [main][ModuleFrameworkImpl:1896] Started initial bundles
+2022-05-26 12:57:19.775 INFO  [main][ModuleFrameworkImpl:1949] Starting dynamic bundles
+2022-05-26 12:57:33.382 INFO  [main][ModuleFrameworkImpl:1971] Started dynamic bundles
+2022-05-26 12:57:33.420 INFO  [main][ModuleFrameworkImpl:1978] Starting web bundles
+2022-05-26 12:57:37.808 INFO  [main][ModuleFrameworkImpl:2032] Started web bundles
+2022-05-26 12:57:37.811 INFO  [main][ModuleFrameworkImpl:408] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-05-26 12:57:38.473 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-05-26 12:57:38.512 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 39 ms
+2022-05-26 12:57:43.643 WARN  [main][SidecarManager:111] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-05-26 12:57:57.113 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-05-26 12:58:29.831 INFO  [main][StartupHelperUtil:109] There are no patches installed
+2022-05-26 12:58:29.889 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-05-26 12:58:29.908 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 19 ms
+2022-05-26 12:58:30.507 INFO  [main][AutoDeployDir:206] Auto deploy scanner started for C:\liferay\liferay-ce-portal-7.3.7-ga8\deploy
+2022-05-26 12:58:32.128 INFO  [main][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-05-26 12:58:32.292 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-05-26 12:58:32.401 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-05-26 12:58:32.510 INFO  [main][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-05-26 12:58:37.615 INFO  [main][SystemCheckOSGiCommands:59] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-05-26 12:58:37.617 INFO  [main][SystemCheckOSGiCommands:71] Running system check
+2022-05-26 12:58:37.619 INFO  [main][SystemCheckOSGiCommands:98] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-05-26 12:58:37.623 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-05-26 12:58:41.008 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-05-26 12:58:41.010 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-05-26 12:59:09.180 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-05-26 12:59:09.181 INFO  [main][SystemCheckOSGiCommands:114] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-05-26 12:59:09.188 INFO  [main][SystemCheckOSGiCommands:126] Spring Extender Unavailable Component Checker check result: No issues were found.

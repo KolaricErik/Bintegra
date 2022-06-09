@@ -1,0 +1,14 @@
+$btn-selecto: () !default;
+$btn-selecto: map-merge((
+  border-radius: 0,
+  padding: $btn-padding,
+), $btn-selecto);
+
+.btn {
+  @include clay-button-variant($btn-selecto);
+}
+
+.btn-transparent {
+	@include clay-button-variant($btn-transparent);
+}
+

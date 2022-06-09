@@ -1,0 +1,16 @@
+#banner {
+  padding-top: 2rem;
+  #heading {
+    .site-title {
+      display: flex;
+      align-items: center;
+      
+      .site-name { 
+        font-size: 1.4rem;
+        margin: 0;
+        font-weight: bold;
+        margin-left: 1rem;
+      }
+    }
+  }
+}

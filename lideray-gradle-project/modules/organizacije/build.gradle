@@ -1,0 +1,7 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+liferay{
+	liferayHome = "D:\\project\\server\\liferay-ce-portal-7.3.0-ga1"
+	deployDir = file("${liferayHome}\\deploy")
+}

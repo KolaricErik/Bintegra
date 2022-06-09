@@ -1,0 +1,136 @@
+2022-06-07 08:24:56.434 INFO  [main][PortalContextLoaderListener:139] JVM arguments: -Dcatalina.base=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dcatalina.home=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dfile.encoding=UTF8 -Djava.io.tmpdir=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m -javaagent:C:\Programske datoteke\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=49718:C:\Programske datoteke\JetBrains\IntelliJ IDEA 2021.3.2\bin
+2022-06-07 08:25:57.294 WARN  [main][DialectDetector:99] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2022-06-07 08:25:57.294 INFO  [main][DialectDetector:159] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3
+2022-06-07 08:26:00.575 INFO  [main][ModuleFrameworkImpl:1602] Starting initial bundles
+2022-06-07 08:26:05.386 INFO  [main][ModuleFrameworkImpl:1896] Started initial bundles
+2022-06-07 08:26:05.386 INFO  [main][ModuleFrameworkImpl:1949] Starting dynamic bundles
+2022-06-07 08:26:28.662 INFO  [main][ModuleFrameworkImpl:1971] Started dynamic bundles
+2022-06-07 08:26:28.662 INFO  [main][ModuleFrameworkImpl:1978] Starting web bundles
+2022-06-07 08:26:32.349 INFO  [main][ModuleFrameworkImpl:2032] Started web bundles
+2022-06-07 08:26:32.349 INFO  [main][ModuleFrameworkImpl:408] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-06-07 08:26:32.848 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-06-07 08:26:32.864 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 16 ms
+2022-06-07 08:26:39.597 WARN  [main][SidecarManager:111] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-06-07 08:26:56.107 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-06-07 08:27:28.184 INFO  [main][StartupHelperUtil:109] There are no patches installed
+2022-06-07 08:27:28.346 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-06-07 08:27:28.386 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 40 ms
+2022-06-07 08:27:30.452 INFO  [main][AutoDeployDir:206] Auto deploy scanner started for C:\liferay\liferay-ce-portal-7.3.7-ga8\deploy
+2022-06-07 08:27:41.024 INFO  [main][SystemCheckOSGiCommands:59] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-06-07 08:27:41.025 INFO  [main][SystemCheckOSGiCommands:71] Running system check
+2022-06-07 08:27:41.026 INFO  [main][SystemCheckOSGiCommands:98] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-06-07 08:27:41.027 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-06-07 08:27:48.657 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-06-07 08:27:48.988 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-06-07 08:27:49.266 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-06-07 08:27:49.478 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-06-07 08:27:49.480 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-06-07 08:27:49.683 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-06-07 08:28:21.467 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-06-07 08:28:21.468 INFO  [main][SystemCheckOSGiCommands:114] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-06-07 08:28:21.471 INFO  [main][SystemCheckOSGiCommands:126] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-06-07 14:57:12.996 INFO  [main][PortalContextLoaderListener:139] JVM arguments: -Dcatalina.base=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dcatalina.home=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dfile.encoding=UTF8 -Djava.io.tmpdir=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m -javaagent:C:\Programske datoteke\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=52703:C:\Programske datoteke\JetBrains\IntelliJ IDEA 2021.3.2\bin
+2022-06-07 14:58:41.868 WARN  [main][DialectDetector:99] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2022-06-07 14:58:41.868 INFO  [main][DialectDetector:159] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3
+2022-06-07 14:58:46.965 INFO  [main][ModuleFrameworkImpl:1602] Starting initial bundles
+2022-06-07 14:58:52.948 INFO  [main][ModuleFrameworkImpl:1896] Started initial bundles
+2022-06-07 14:58:52.948 INFO  [main][ModuleFrameworkImpl:1949] Starting dynamic bundles
+2022-06-07 14:59:21.130 INFO  [main][ModuleFrameworkImpl:1971] Started dynamic bundles
+2022-06-07 14:59:21.130 INFO  [main][ModuleFrameworkImpl:1978] Starting web bundles
+2022-06-07 14:59:28.609 INFO  [main][ModuleFrameworkImpl:2032] Started web bundles
+2022-06-07 14:59:28.609 INFO  [main][ModuleFrameworkImpl:408] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-06-07 14:59:29.296 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-06-07 14:59:29.390 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 94 ms
+2022-06-07 14:59:40.151 WARN  [main][SidecarManager:111] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-06-07 15:00:06.535 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-06-07 15:01:07.228 INFO  [main][StartupHelperUtil:109] There are no patches installed
+2022-06-07 15:01:07.293 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-06-07 15:01:07.348 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 55 ms
+2022-06-07 15:01:08.576 INFO  [main][AutoDeployDir:206] Auto deploy scanner started for C:\liferay\liferay-ce-portal-7.3.7-ga8\deploy
+2022-06-07 15:01:09.937 INFO  [main][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-06-07 15:01:10.302 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-06-07 15:01:10.433 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-06-07 15:01:10.518 INFO  [main][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-06-07 15:01:11.732 INFO  [main][SystemCheckOSGiCommands:59] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-06-07 15:01:11.734 INFO  [main][SystemCheckOSGiCommands:71] Running system check
+2022-06-07 15:01:11.734 INFO  [main][SystemCheckOSGiCommands:98] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-06-07 15:01:11.735 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-06-07 15:01:19.738 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-06-07 15:01:19.738 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-06-07 15:01:53.900 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-06-07 15:01:53.901 INFO  [main][SystemCheckOSGiCommands:114] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-06-07 15:01:53.905 INFO  [main][SystemCheckOSGiCommands:126] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-06-07 15:13:12.226 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-06-07 15:13:12.256 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-06-07 15:13:12.282 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-06-07 15:13:12.299 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered
+2022-06-07 15:18:39.004 INFO  [main][PortalContextLoaderListener:139] JVM arguments: -Dcatalina.base=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dcatalina.home=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43 -Dfile.encoding=UTF8 -Djava.io.tmpdir=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\temp -Djava.net.preferIPv4Stack=true -Djava.util.logging.config.file=C:\liferay\liferay-ce-portal-7.3.7-ga8\tomcat-9.0.43\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx2560m -javaagent:C:\Programske datoteke\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=57637:C:\Programske datoteke\JetBrains\IntelliJ IDEA 2021.3.2\bin
+2022-06-07 15:18:45.610 WARN  [main][DialectDetector:99] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2022-06-07 15:18:45.613 INFO  [main][DialectDetector:159] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.3
+2022-06-07 15:18:55.495 INFO  [main][ModuleFrameworkImpl:1602] Starting initial bundles
+2022-06-07 15:19:00.755 INFO  [main][ModuleFrameworkImpl:1896] Started initial bundles
+2022-06-07 15:19:00.765 INFO  [main][ModuleFrameworkImpl:1949] Starting dynamic bundles
+2022-06-07 15:19:32.353 INFO  [main][ModuleFrameworkImpl:1971] Started dynamic bundles
+2022-06-07 15:19:32.354 INFO  [main][ModuleFrameworkImpl:1978] Starting web bundles
+2022-06-07 15:19:44.644 INFO  [main][ModuleFrameworkImpl:2032] Started web bundles
+2022-06-07 15:19:44.645 INFO  [main][ModuleFrameworkImpl:408] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2022-06-07 15:19:46.495 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-06-07 15:19:46.564 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 69 ms
+2022-06-07 15:20:00.585 WARN  [main][SidecarManager:111] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2022-06-07 15:20:34.046 INFO  [main][Sidecar:119] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2022-06-07 15:21:50.470 INFO  [main][StartupHelperUtil:109] There are no patches installed
+2022-06-07 15:21:50.709 INFO  [main][LoggingTimer:83] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2022-06-07 15:21:50.772 INFO  [main][LoggingTimer:44] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 63 ms
+2022-06-07 15:21:52.652 INFO  [main][AutoDeployDir:206] Auto deploy scanner started for C:\liferay\liferay-ce-portal-7.3.7-ga8\deploy
+2022-06-07 15:22:01.640 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for speedwell-theme is available for use
+2022-06-07 15:22:03.438 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2022-06-07 15:22:04.620 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2022-06-07 15:22:05.628 INFO  [com.liferay.portal.osgi.web.wab.extender.internal.WabFactory-BundleTrackerOpener][ThemeHotDeployListener:108] 1 theme for minium-theme is available for use
+2022-06-07 15:22:13.009 INFO  [main][SystemCheckOSGiCommands:59] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+2022-06-07 15:22:13.010 INFO  [main][SystemCheckOSGiCommands:71] Running system check
+2022-06-07 15:22:13.011 INFO  [main][SystemCheckOSGiCommands:98] Available checkers :[Declarative Service Soft Circular Dependency Checker, Declarative Service Unsatisfied Component Checker, Spring Extender Unavailable Component Checker]
+2022-06-07 15:22:13.011 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Soft Circular Dependency Checker". You can run this by itself with command "ds:softCircularDependency" in gogo shell.
+2022-06-07 15:22:20.400 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Soft Circular Dependency Checker check result: No issues were found.
+2022-06-07 15:22:20.401 INFO  [main][SystemCheckOSGiCommands:114] Running "Declarative Service Unsatisfied Component Checker". You can run this by itself with command "ds:unsatisfied" in gogo shell.
+2022-06-07 15:22:58.239 INFO  [main][SystemCheckOSGiCommands:126] Declarative Service Unsatisfied Component Checker check result: No issues were found.
+2022-06-07 15:22:58.240 INFO  [main][SystemCheckOSGiCommands:114] Running "Spring Extender Unavailable Component Checker". You can run this by itself with command "dm na" in gogo shell.
+2022-06-07 15:22:58.242 INFO  [main][SystemCheckOSGiCommands:126] Spring Extender Unavailable Component Checker check result: No issues were found.
+2022-06-07 18:30:20.989 WARN  [HikariPool-1 housekeeper][HikariPool:686] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h34s9ms592µs600ns).
+2022-06-07 18:30:30.079 WARN  [HikariPool-2 housekeeper][HikariPool:686] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h34s1ms43µs500ns).
+2022-06-07 20:03:52.365 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 20:04:02.609 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:04:03.366 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:05:55.373 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 20:06:04.613 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:06:04.943 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:08:38.906 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 20:08:46.241 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:08:46.591 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:10:42.853 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 20:10:48.071 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:10:48.511 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:16:25.684 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 20:16:31.825 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:16:32.205 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:26:03.349 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 20:26:11.998 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:26:12.323 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:28:10.773 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 20:28:18.658 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:28:19.189 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:43:21.261 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 20:43:27.801 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:43:28.221 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:46:43.951 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 20:46:50.431 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 20:46:50.822 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 21:10:43.104 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 21:10:53.382 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 21:10:54.224 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 21:17:07.340 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:272] Processing si.feri.praktikum.bintegra.jar
+2022-06-07 21:17:12.739 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:49] STOPPED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 21:17:13.044 INFO  [Refresh Thread: Equinox Container: 2c863c79-68ec-4c54-90a0-3d897d1ea2fe][BundleStartStopLogger:46] STARTED si.feri.praktikum.bintegra_1.0.0 [1356]
+2022-06-07 21:40:24.926 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for minium-theme was unregistered
+2022-06-07 21:40:24.973 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for classic-theme was unregistered
+2022-06-07 21:40:24.973 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for admin-theme was unregistered
+2022-06-07 21:40:24.988 INFO  [Thread-9][ThemeHotDeployListener:171] 1 theme for speedwell-theme was unregistered

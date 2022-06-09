@@ -1,0 +1,5 @@
+Bundle-Name: untitled
+Bundle-SymbolicName: si.feri.praktikum.bintegra
+Bundle-Version: 1.0.0
+Export-Package: si.feri.praktikum.bintegra.constants
+Web-ContextPath: /untitled

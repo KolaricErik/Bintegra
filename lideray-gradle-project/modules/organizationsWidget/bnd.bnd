@@ -1,0 +1,5 @@
+Bundle-Name: organizationsWidget
+Bundle-SymbolicName: si.feri.bintegra
+Bundle-Version: 1.0.0
+Export-Package: si.feri.bintegra.constants
+Web-ContextPath: /organizationsWidget
