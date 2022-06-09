@@ -7,7 +7,7 @@
 
 <h3>Predpogoji</h3>
 
-IntelliJ IDEA, Liferay plugin, Liferay server
+IntelliJ IDEA, Liferay plugin, Liferay server, Java SDK 1.8 ali SDK 11
 
 
 <h3>Namestitev in zagon rešitve</h3>
