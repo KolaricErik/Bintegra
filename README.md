@@ -55,6 +55,8 @@ Podjetje:
 - Spremembe obstoječih storitev 
 
 
+![Hello World](https://1.bp.blogspot.com/-05Xmpg2QR60/XpK9iBNT2cI/AAAAAAAABio/iX_YuC5n6v4JXAEaDCjOyCOcLH2FWjAfQCLcBGAsYHQ/s1600/Screenshot_2020-04-12%2BHome%2B-%2BLiferay%25281%2529.png)
+
 <h3>Dodatki</h3>
 
 Dostop do swagger API :
