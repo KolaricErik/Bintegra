@@ -12,7 +12,7 @@ IntelliJ IDEA, Liferay plugin, Liferay server
 
 <h3>Namestitev in zagon rešitve</h3>
 
- - podrobnosti so napisane v <a href="how_to.pdf">how_to.pdf</a>
+ - podrobnosti so napisane v <a href="how_to_2.pdf">how_to.pdf</a>
 
 
 <h3>Uporabljene tehnologije</h3>
