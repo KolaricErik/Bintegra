@@ -1,3 +1,5 @@
+https://media-exp1.licdn.com/dms/image/C4E0BAQFfcnhNZjuFPA/company-logo_200_200/0/1637844410656?e=2147483647&v=beta&t=xnkLXaUGoC6dlo3W9ocPDAmgB1Q-ubZO4DlsLl9fUgg
+
 1. Pisanje dokumentacije za objekte in povezave med objekti.
 2. Dokumentacjia arhitekture.
 3. Kreiranje Vue.js app
