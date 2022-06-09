@@ -2,11 +2,12 @@
 
 <h1>Bintegra - reševanje problema B2B</h1>
 
+<a href="https://www.bintegra.com/">Bintegra</a> je podjetje, ki si prizadeva digitalno transformacijo, izgleda in izgradnje poslovnih aplikacij, katere lahko uporabljamo kjerkoli, jih zaganjamo varno, zanesljivo in razširljivo. Zaposlujejo strastne inženirje, ki razvijajo rešitve za kompleksne probleme.
+
+
 <h3>Predpogoji</h3>
 
-
 IntelliJ IDEA, Liferay plugin, Liferay server
-
 
 
 <h3>Namestitev in zagon rešitve</h3>
@@ -22,6 +23,13 @@ IntelliJ IDEA, Liferay plugin, Liferay server
 - <a href="https://gradle.org/releases/" target="_blank">Gradle</a> - Gradle v7.4.2
 
 
+<h3>Liferay</h3>
+
+![Liferay](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/gntp637fmgntsj6z2kec)
+
+Liferay je robustna platforma, ki omgoča rešitve za uporabnike mobilnih in namiznih naprav. Omogoča standardne aplikacije, ki jih lahko spreminjamo po želji. Prav tako je "open source" ali odprto koden projekt, ki ga metodološko razvijajo različni razvijalci iz vseh koncev sveta.
+
+
 <h3>Potek dela</h3>
 
 1. Pisanje dokumentacije za objekte in povezave med objekti.
@@ -30,6 +38,7 @@ IntelliJ IDEA, Liferay plugin, Liferay server
 4. Vue.js spremeniti v Vue jsp ki se ga da importati v LifeRay. -> Video: https://www.youtube.com/watch?v=48avpUd2mKs
 5. Klicanje REST API skozi VUE.js ki vpliva na LifeRay.
 6. Uporaba LifeRay headless API.
+
 
 <h3>Zahteve</h3>
 
@@ -44,6 +53,7 @@ Podjetje:
 - Aktivacija dodatnih storitev 
 
 - Spremembe obstoječih storitev 
+
 
 <h3>Dodatki</h3>
 
