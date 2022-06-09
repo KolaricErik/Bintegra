@@ -3,6 +3,6 @@ dependencies {
 }
 
 liferay{
-	liferayHome = "C:\\liferay\\liferay-ce-portal-7.3.7-ga8"
+	liferayHome = "../../../../liferay-ce-portal-7.3.7-ga8"
 	deployDir = file("${liferayHome}\\deploy")
 }
