@@ -1,0 +1,21 @@
+Bintegra B2B Rešitev
+
+Aplikacija za pregled uporabnikov neke organizacije
+
+Leto izdelave: 2022
+
+Jaša Virant
+Luka Jerman
+
+Domača stran: localhost:8080/  (lokalni strežnik)
+Vir podatkov: 
+...
+Koda: https://github.com/KolaricErik/Bintegra/tree/master
+
+Kategorizacija: celovita informacijska rešitev, spletna aplikacija, predstavitvena spletna stran
+
+Oznake: Liferay DXP, Liferay API, Vue.js, JavaScript
+
+Z našo aplikacijo lahko podjetja ustvarjajo organizacije za svoje zaposlene / uporabnike. Nato lahko v teh organizacijah preglejujejo uporabnike
+in njihove naloge. Ustvarjen je tudi interni sistem za prijavo, ki določenim uporabnikom ne dovoli vpogleda v organizacijo kateru
+ne pripadajo. Aplikacija uporablja backend Liferay za prikaz podatkov pa custom plugin narejen v Vue.js.
